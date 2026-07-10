@@ -1,0 +1,12 @@
+Efficacy of dual-modality ablation for symptomatic cystic thyroid nodules.
+Bashumeel Y, Ismail E, Zenah Y, Lee GS, Kandil E.
+Division of Endocrine and Oncologic Surgery, Department of Surgery, Tulane University School of Medicine, New Orleans, LA, USA.
+Gland surgery, 2026, Volume 15, Issue 5, Page 123
+Abstract: Background
+Radiofrequency ablation (RFA) and ethanol ablation (EA) are the most widely used percutaneous treatment modalities for cystic thyroid nodules. We examined outcomes of combined RFA and EA.
+Methods
+We retrospectively analyzed data from 15 patients who underwent concurrent RFA and EA for treatment of cystic thyroid nodules. Patient factors and cyst characteristics were assessed to measure efficacy. The primary outcome was the volume reduction rate and complete resolution of cystic nodule. Secondary outcomes were the incidence of post-procedural complications.
+Results
+The mean age of the patients was 61.3±17.3 years, with females comprising 60%. The median cyst volume decreased substantially from 9.93 mL [interquartile range (IQR), 1.9-40.5 mL] to 1.3 mL (IQR, 0.23-6.35 mL) following RFA/EA treatment. The median volume reduction ratio (VRR) at the last follow-up was 87% (IQR, 50-97%). Complete resolution of the cyst and recurrence were observed in one patient each. No progression of the cyst was reported. Post-procedural complications were minimal, and all post-procedural discomfort resolved within 2 weeks.
+Conclusions
+RFA and EA are effective, percutaneous treatment options for cystic thyroid nodules when used independently, but the combined usage showed substantial volume reduction comparable to previously reported outcomes of monotherapy. All patients achieved symptomatic resolution with minimal post-procedural complications. Larger studies are needed to optimize treatment protocols.

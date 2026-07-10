@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "skills": {
+    "chembl-database": {
+      "source": "google-deepmind/science-skills",
+      "sourceType": "github",
+      "skillPath": "skills/chembl_database/SKILL.md",
+      "computedHash": "03c09a44af402741b381b3d449c6d499b50d88648df44d69bef07cb2e22f1068"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "computedHash": "781bd6d3f9b19f8c9af6b53d8d0e4876d0183841b565db34ca7092ffa412d111"
+    },
+    "literature-search": {
+      "source": "lingzhi227/agent-research-skills",
+      "sourceType": "github",
+      "skillPath": "skills/literature-search/SKILL.md",
+      "computedHash": "d587db98be3cf930570e6604d1036977e80db3a087bf0c1dd604b65ee336c202"
+    },
+    "literature-search-europepmc": {
+      "source": "google-deepmind/science-skills",
+      "sourceType": "github",
+      "skillPath": "skills/literature_search_europepmc/SKILL.md",
+      "computedHash": "a31c0cf26efbae9926d885e00bcc740330bc65844cdd580ed319be9625038f56"
+    },
+    "paper-reading": {
+      "source": "mizoreww/awesome-claude-code-config",
+      "sourceType": "github",
+      "skillPath": "skills/paper-reading/SKILL.md",
+      "computedHash": "018b9d3214c1430112b132be0195e68fa81420f47c2e1a7c6f6b25f9c8b881d9"
+    },
+    "pdf": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/pdf/SKILL.md",
+      "computedHash": "cfbc539377088ca7e44a813b30c306327385bbd973cd7a721e1743f60837dd62"
+    },
+    "pubmed-database": {
+      "source": "affaan-m/everything-claude-code",
+      "sourceType": "github",
+      "skillPath": "skills/scientific-db-pubmed-database/SKILL.md",
+      "computedHash": "97d4bfb3ff3f1661bd9775e8b62efea1fb470bff3ae294c1bebf42e288785065"
+    },
+    "synthesize-research": {
+      "source": "anthropics/knowledge-work-plugins",
+      "sourceType": "github",
+      "skillPath": "product-management/skills/synthesize-research/SKILL.md",
+      "computedHash": "7921117657f8fc73856c5e518c464463cb94b86581d33b528a3f6be262fa42dc"
+    },
+    "zotero-paper-reader": {
+      "source": "fuzhiyu/researchprojecttemplate",
+      "sourceType": "github",
+      "skillPath": "ProjectExample/.claude/skills/zotero-paper-reader/SKILL.md",
+      "computedHash": "dc6dd565023b79b771793178fd126cf72685286bcfd8033c31a0c5625c3485f9"
+    }
+  }
+}

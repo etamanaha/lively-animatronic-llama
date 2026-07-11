@@ -9,11 +9,16 @@ permission:
 ## Research paper summarization skill
 
 ## Inputs
+
 Accept one of the following:
 - Full article text
 - PDF converted to text
 - Abstract
-- Relevant excerpts supplied by another agent
+- Relevant excerpts
+- PMCID
+- PMID
+- DOI
+- URL
 
 ## When to Use
 - Summarizing individual research papers into a structured summary, extracting key insights, and providing a comprehensive overview of the paper's contributions, methods, results, and limitations.
@@ -22,6 +27,12 @@ Accept one of the following:
 **Not for:** 
 - Summarizing multiple papers at once (use the synthesis skill for that), or for non-research documents like tutorials, textbooks, or blog posts.
 - Searching for additional information.
+
+## If given a PMCID, PMID, DOI, or Europe PMC URL:
+
+1. Retrieve the full text if it is openly available.
+2. Use the retrieved article as the source for the summary.
+3. If the full text cannot be retrieved, summarize the abstract instead and state that the summary is based only on the abstract.
 
 ## Instructions
 Read the provided article and summarize it using the following structure.

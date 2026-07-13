@@ -1,175 +1,177 @@
 import sys
-import requests
-from bs4 import BeautifulSoup
+import os
 import re
 
-def fetch_online_article(url):
-    """Fetch the text content from an online article."""
-    try:
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-        }
-        response = requests.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
+# Configuration
+SUMMARY_TEMPLATE = """# Article Summary
+## Citation
+{}
 
-        # Try to extract main content
-        soup = BeautifulSoup(response.text, 'html.parser')
+## Research Question
+{}
 
-        # Remove script and style elements
-        for script in soup(["script", "style", "nav", "footer", "iframe"]):
-            script.decompose()
+## Methods
+{}
 
-        # Get text and clean it
-        text = soup.get_text()
-        lines = (line.strip() for line in text.splitlines())
-        chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
-        text = '\n'.join(chunk for chunk in chunks if chunk)
+## Results
+{}
 
-        return text
+## Discussion
+{}
 
-    except Exception as e:
-        print(f"Error fetching online article: {e}")
-        return None
+## Conclusion
+{}
+"""
+    
+def extract_citation(text):
+    """Extract citation in ACS format from various possible locations"""
+    lines = text.split('\n')
+
+    # Look for the title at the very beginning (before any section headers)
+    for i, line in enumerate(lines[:10]):
+        if line.strip() and not line.startswith('#') and not line.startswith('##'):
+            # This might be the title
+            title = line.strip()
+            # Look for author information in the next few lines
+            for j in range(i + 1, min(i + 5, len(lines))):
+                next_line = lines[j].strip()
+                if next_line and not next_line.startswith('#') and not next_line.startswith('##'):
+                    # Try to construct a basic citation
+                    return f"{title}. {next_line}"
+            return title
+
+    return "Citation not available in standard format"
+
+def extract_section(text, section_keywords, section_name):
+    """Extract a specific section from text using multiple keywords"""
+    lines = text.split('\n')
+    section_lines = []
+
+    # Try to find the section header - look specifically for ## SectionName
+    for i, line in enumerate(lines):
+        if line.startswith('##'):
+            line_upper = line.upper()
+            if any(keyword.upper() in line_upper for keyword in section_keywords):
+                # Found section header, extract content including subsections
+                for j in range(i + 1, len(lines)):
+                    if lines[j].startswith('##') and j > i + 1:  # Next main section (allow one subsection)
+                        break
+                    if lines[j].strip() and not lines[j].strip().startswith(('References', 'REFERENCES', 'Acknowledgements', 'ACKNOWLEDGEMENTS')):
+                        section_lines.append(lines[j].strip())
+                break
+
+    return ' '.join(section_lines) if section_lines else "Not provided"
 
 def summarize_text(text):
     """Generate a summary of the article text."""
-    # Extract key sections from the text
-    lines = text.split('\n')
+    # Extract citation
+    citation = extract_citation(text)
 
-    # Extract citation (first line or look for citation patterns)
-    citation = "Not provided"
-    for line in lines[:10]:  # Check first 10 lines
-        if "doi:" in line.lower() or "pmid:" in line.lower() or "pmcid:" in line.lower():
-            citation = line.strip()
-            break
-    if citation == "Not provided" and lines:
-        citation = lines[0].strip() if lines[0].strip() else "Not provided"
-
-    # Extract research question from Abstract
-    research_question = "Not provided"
-    for line in lines:
-        if "Question" in line or "Objective" in line or "Aim" in line:
-            research_question = line.strip()
-            break
+    # Extract research question from Abstract or Introduction
+    research_question = extract_section(text, ['Abstract', 'Introduction', 'Background', 'Objective', 'Aim'], 'research_question')
 
     # Extract methods
-    methods = "Not provided"
-    for i, line in enumerate(lines):
-        if "Methods" in line or "Setting and Design" in line or "METHODS" in line:
-            methods_start = i
-            # Extract until next section or end of text
-            methods_lines = []
-            for j in range(methods_start, len(lines)):
-                if lines[j].startswith('##') and j > methods_start:
-                    break
-                if lines[j].strip() and not lines[j].strip().startswith(('References', 'REFERENCES', 'Acknowledgements', 'ACKNOWLEDGEMENTS')):
-                    methods_lines.append(lines[j].strip())
-            methods = ' '.join(methods_lines)
-            break
+    methods = extract_section(text, ['Methods', 'Methodology', 'Experimental Design', 'Participants', 'Materials and Methods', 'Study Population', 'Exposure', 'Statistical Analysis'], 'methods')
 
     # Extract results
-    results = "Not provided"
-    for i, line in enumerate(lines):
-        if "Results" in line or "RESULT" in line:
-            results_start = i
-            # Extract until next section or end of text
-            results_lines = []
-            for j in range(results_start, len(lines)):
-                if lines[j].startswith('##') and j > results_start:
-                    break
-                if lines[j].strip() and not lines[j].strip().startswith(('References', 'REFERENCES', 'Acknowledgements', 'ACKNOWLEDGEMENTS')):
-                    results_lines.append(lines[j].strip())
-            results = ' '.join(results_lines)
-            break
+    results = extract_section(text, ['Results', 'Findings', 'Outcomes', 'Data', 'Descriptive Statistics', 'Association'], 'results')
 
     # Extract discussion
-    discussion = "Not provided"
-    for i, line in enumerate(lines):
-        if "Discussion" in line or "DISCUSSION" in line:
-            discussion_start = i
-            # Extract until next section or end of text
-            discussion_lines = []
-            for j in range(discussion_start, len(lines)):
-                if lines[j].startswith('##') and j > discussion_start:
-                    break
-                if lines[j].strip() and not lines[j].strip().startswith(('References', 'REFERENCES', 'Acknowledgements', 'ACKNOWLEDGEMENTS')):
-                    discussion_lines.append(lines[j].strip())
-            discussion = ' '.join(discussion_lines)
-            break
+    discussion = extract_section(text, ['Discussion', 'Interpretation', 'Analysis', 'Conclusion'], 'discussion')
 
     # Extract conclusion
-    conclusion = "Not provided"
-    for i, line in enumerate(lines):
-        if "Conclusions" in line or "Conclusion" in line or "CONCLUSION" in line:
-            conclusion_start = i
-            # Extract until next section or end of text
-            conclusion_lines = []
-            for j in range(conclusion_start, len(lines)):
-                if lines[j].startswith('##') and j > conclusion_start:
-                    break
-                if lines[j].strip() and not lines[j].strip().startswith(('References', 'REFERENCES', 'Acknowledgements', 'ACKNOWLEDGEMENTS')):
-                    conclusion_lines.append(lines[j].strip())
-            conclusion = ' '.join(conclusion_lines)
-            break
+    conclusion = extract_section(text, ['Conclusion', 'Conclusions', 'Summary', 'Final Remarks'], 'conclusion')
 
     # Generate summary
-    summary = f"""# Article Summary
-## Citation
-{citation}
-
-## Research Question
-{research_question}
-
-## Methods
-{methods}
-
-## Results
-{results}
-
-## Discussion
-{discussion}
-
-## Conclusion
-{conclusion}
-"""
+    summary = SUMMARY_TEMPLATE.format(
+        citation,
+        research_question,
+        methods,
+        results,
+        discussion,
+        conclusion
+    )
 
     return summary
 
-def main():
-    # Example usage
-    import sys
-    if len(sys.argv) < 2:
-        print("Usage: python summarize_article.py <input_file_or_url>")
-        sys.exit(1)
 
-    input_source = sys.argv[1]
 
-    # Check if input is a URL
-    if input_source.startswith(('http://', 'https://')):
-        print(f"Fetching article from URL: {input_source}")
-        article_text = fetch_online_article(input_source)
-        if not article_text:
-            print("Failed to fetch article from URL")
-            sys.exit(1)
-    else:
-        # Assume it's a local file
-        print(f"Reading article from file: {input_source}")
-        try:
-            with open(input_source, 'r') as f:
-                article_text = f.read()
-        except Exception as e:
-            print(f"Error reading file: {e}")
-            sys.exit(1)
+def summarize_article(input_source, output_format="markdown", output_file=None):
+    """
+    Main function for programmatic access
+
+    Args:
+        input_source (str): Path to local file containing article text
+        output_format (str): "markdown", "json", or "html"
+        output_file (str): Path to save output (optional)
+
+    Returns:
+        str: Generated summary text
+    """
+    # Validate input - only accept local file paths
+    if not os.path.exists(input_source):
+        print(f"Invalid input source: {input_source}")
+        print("The summarize skill only accepts local file paths containing article text.")
+        print("Use the literature-search-europepmc skill to retrieve articles first.")
+        return None
+
+    # Read article content from local file
+    try:
+        with open(input_source, 'r') as f:
+            article_text = f.read()
+    except Exception as e:
+        print(f"Error reading file: {e}")
+        return None
+
+    if not article_text:
+        print("Failed to retrieve article content")
+        return None
 
     # Generate summary
     summary = summarize_text(article_text)
 
-    # Write summary to file
-    output_file = "summary.md"
-    with open(output_file, 'w') as f:
-        f.write(summary)
+    # Save to file if requested
+    if output_file:
+        with open(output_file, 'w') as f:
+            f.write(summary)
+        print(f"Summary saved to {output_file}")
 
-    print(f"Summary written to {output_file}")
+    return summary
+
+def main():
+    """Command-line interface"""
+    if len(sys.argv) < 2:
+        print("Usage: python summarize_article.py <input_source> [--output <output_file>] [--format <format>]")
+        print("  input_source: File path containing article text (retrieved via literature-search-europepmc)")
+        print("  --output: Output file path (default: summary.md)")
+        print("  --format: Output format (markdown, json, html)")
+        print("\nNote: This skill only summarizes articles that have already been retrieved.")
+        print("Use the literature-search-europepmc skill to fetch articles first.")
+        sys.exit(1)
+
+    input_source = sys.argv[1]
+    output_file = "summary.md"
+    output_format = "markdown"
+
+    # Parse arguments
+    i = 2
+    while i < len(sys.argv):
+        if sys.argv[i] == "--output" and i + 1 < len(sys.argv):
+            output_file = sys.argv[i + 1]
+            i += 2
+        elif sys.argv[i] == "--format" and i + 1 < len(sys.argv):
+            output_format = sys.argv[i + 1]
+            i += 2
+        else:
+            i += 1
+
+    # Execute summarization
+    result = summarize_article(input_source, output_format, output_file)
+    if result:
+        print("Summarization completed successfully")
+    else:
+        print("Summarization failed")
+        sys.exit(1)
 
 if __name__ == "__main__":
     main()

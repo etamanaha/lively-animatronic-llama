@@ -23,12 +23,11 @@ Your responsibilities include:
 ## Workflow
 1. Present a plan of how the research will be conducted including the agent(s) you will use and the order they will be used in. Do not continue until the user has approved.
 2. Use the Task tool to delegate the literature retrieval task to the info-fetcher agent.
-  - Unless otherwise specified, find 10 papers. 
+  - Unless otherwise specified, find 20 papers. 
   - After the info-fetcher agent is used, read through the entire json file made by the skill used to verify if the information is correct. 
-3. Provide the user with ACS style citations for the first 5 papers listed. These papers will be analyzed further.
-  - Do not determine the most relevant papers. Use the first 5 papers listed when provided a list from the info-fetcher agent. 
+3. 3. Using the titles, determine the 5 most relevant papers. Provide the user with ACS style citations for those 5 papers.
   - Before going further, make sure the 5 papers exist and are open-access.
-4. Use the skill determined by the info-fetcher agent to get the full text of the first 5 papers listed and save them as local files.
+4. Use the skill determined by the info-fetcher agent to get the full text of the 5 papers listed and save them as local files.
 5. Once the papers are retrieved as local files, use the summarize skill to generate summaries of the 5 papers.
 6. Use the synthesis skill to combine the findings into one coherent output.
 7. Review the outputs for completeness and consistency before presenting the final report.
@@ -37,7 +36,6 @@ Your responsibilities include:
 - **info-fetcher**: Delegate the retrieval task to the info-fetcher agent.
 
 ## Skills
-- **literature-search-europepmc**: Retrieve full text articles and save them as local files
 - **summarize**: Use the summarize skill to generate summaries of the 5 papers (only works with local files retrieved by literature-search-europepmc)
 - **synthesis**: Use the synthesis skill to combine the findings into one output
 

@@ -1,0 +1,99 @@
+# Prescription stimulant consumption in the United States compared with 35 other countries
+
+## Abstract
+
+AbstractIntroductionPrevious studies have identified the United States as a global outlier in stimulant prescribing. Given that stimulant prescribing in the United States has continued to increase, we aimed to provide current international comparisons.MethodsWe analyzed 2024 stimulant consumption data from the International Narcotics Control Board, reported as defined daily doses for statistical purposes (S-DDD) per 1000 population per day. We compared the United States with 35 Organization for Economic Cooperation and Development members.ResultsOverall, the United States comprised 26.8% of the population and consumed 67.6% of prescription stimulants. Per 1000 population per day, the United States had the second highest prescription stimulant consumption after Iceland. The volume of prescription stimulants consumed in the United States per 1000 population per day was 569% of the mean of comparison countries. Further, only 31.2% of consumed prescription stimulants in the United States was methylphenidate, vs 88.8% in comparison countries.ConclusionAdditional research is needed on the clinical and public health consequences of these major differences in controlled substance policy and clinical practice between the United States and other countries. For example, findings suggest a need to better understand any differential addictive potential of prescription stimulant regimens.Keywords: amphetamines, methylphenidate, ADHD, pharmaceutical policy
+
+
+## Introduction
+
+
+Prescribing of stimulants in the United States has been increasing for decades, primarily for treatment of attention-deficit/hyperactivity disorder (ADHD).1,2 International studies prior to the COVID-19 pandemic demonstrated that the United States was a global outlier in consumption of prescribed stimulants.3,4 US prescribing has increased even further since, accelerating during the COVID-19 pandemic.2
+
+In 2022 and 2023, the United States experienced widespread shortages of prescription stimulants, thought to be driven by increasing prescribing paired with supply chain disruption.5 Increases in stimulant prescribing have fueled concerns about misdiagnosis, overdiagnosis, and overprescribing,6,7 especially because stimulants are classified in the United States as having a “high potential for abuse” that “may lead to severe psychological or physical dependence” (Schedule II).8 To provide more recent international comparisons given changes in prescription stimulant prescribing and supply after COVID-19, we conducted a cross-sectional study including the United States and 35 other countries with available data.
+
+
+## Methods
+
+
+We obtained prescription stimulant consumption data from the International Narcotics Control Board (INCB), an independent body of the United Nations responsible for implementation of international drug control conventions.9 INCB data consist of voluntary country-level self-reporting around substances under international control.9 INCB consumption data are quantified in terms of defined daily doses for statistical purposes (S-DDD) per 1000 population per day.9 We extracted data on consumption of amphetamine (S-DDD: 15 mg), dexamphetamine (S-DDD: 15 mg), and methylphenidate (S-DDD: 30 mg) for 2024, where available. For comparison countries, we selected 35 members of the Organization for Economic Co-Operation and Development; data were missing for Japan and Slovakia. For Australia and Chile, only 2023 data were available.
+
+For the United States and comparison countries, we first summed reported prescription stimulant consumption. Next, to contextualize differences in country-level consumption given the known positive correlation between gross domestic product (GDP) and health expenditures,10 we plotted consumption against 2024 GDP adjusted for purchasing power parity.11 Next, we calculated the population-weighted mean stimulant consumption, per 1000 population per day, across all comparison countries and compared it to the United States. The study was determined to be not human subjects research by the Oregon Health & Sciences Institutional Review Board.
+
+
+## Results
+
+
+Overall, the United States comprised 26.8% of the population and consumed 67.6% of stimulants by S-DDD. The United States had the second highest stimulant consumption (25.19 S-DDD per 1000 population per day) after Iceland (48.43 S-DDD per 1000 population per day; Figures 1 and 2). Total prescribed stimulant consumption in the United States was 569% of the mean consumption in the comparison countries (Table 1). Only 31.2% of consumed prescription stimulants was methylphenidate in the United States, compared with 88.8% in comparison countries (Figure 3).
+
+Prescription stimulant consumption in the United States and 35 comparison countries, 2024. Source/Notes: SOURCE Authors’ analysis of data from the International Narcotics Control Board, 2024. Notes Abbreviation: S-DDD, defined daily doses for statistical purposes, defined as 15 mg for amphetamine and dexamphetamine, and 30 mg for methylphenidate. For Australia and Chile, 2024 data were not reported and so 2023 data were used.
+
+Prescription stimulant consumption vs gross domestic product, adjusted for purchasing power parity, for the United States and 35 comparison countries, 2024. Source/Notes: Source Authors’ analysis of data from the International Narcotics Control Board, 2024. Notes The 35 comparison countries are Organization for Economic Co-operation and Development members with data available, including Australia, Austria, Belgium, Canada, Chile, Colombia, Costa Rica, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Israel, Italy, Republic of Korea, Latvia, Lithuania, Luxembourg, Mexico, Netherlands, New Zealand, Norway, Poland, Portugal, Slovenia, Spain, Sweden, Switzerland, Türkiye, and the United Kingdom. For Australia and Chile, 2024 data were not reported and so 2023 data were used. Abbreviation: S-DDD, defined daily doses for statistical purposes, defined as 15 mg for amphetamine and dexamphetamine, and 30 mg for methylphenidate. Trendline represents the linear relationship between prescription stimulant consumption and gross domestic product per capita adjusted for purchasing power parity.
+
+Reported consumption of prescription stimulants in the United States and 35 comparison countries, 2024.
+
+Source Authors’ analysis of data from the International Narcotics Control Board, 2024. Notes: The 35 comparison countries are Organization for Economic Co-operation and Development members with data available, including Australia, Austria, Belgium, Canada, Chile, Colombia, Costa Rica, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Israel, Italy, Republic of Korea, Latvia, Lithuania, Luxembourg, Mexico, Netherlands, New Zealand, Norway, Poland, Portugal, Slovenia, Spain, Sweden, Switzerland, Türkiye, and the United Kingdom. For Australia and Chile, 2024 data were not reported and so 2023 data were used. Abbreviation: S-DDD, defined daily doses for statistical purposes, defined as 15 mg for amphetamine and dexamphetamine, and 30 mg for methylphenidate.
+
+Percentage of prescription stimulant consumption that is methylphenidate vs amphetamines in the United States and 35 comparison countries, 2024. Source/Notes: Source Authors’ analysis of data from the International Narcotics Control Board, 2024. Notes For Australia and Chile, 2024 data were not reported and so 2023 data were used. Due to very low reported consumption (<0.01 S-DDD per 1000 population per day) in Italy, data are not included.
+
+
+## Discussion
+
+
+Prescription stimulant consumption in the United States remains high relative to most other comparison countries. One factor driving prescription stimulant consumption in the United States is prescribing to adults with ADHD, which has been increasing.2,6 This practice stands in stark contrast to Europe, for example, where, as recently as 2020, many countries had restrictions on stimulant prescribing to adults.12 While untreated ADHD may be associated with serious adverse health effects,13 overdiagnosis or misdiagnosis may result in exposure of patients to the risks of prescription stimulants without the concomitant potential benefits.6,7 Further research is needed on the clinical and public health consequences of these major differences in controlled substance policy and clinical practice between the United States and other countries.
+
+Further, as found in previous studies,1 the United States is an outlier in terms of consumption of amphetamines (more consumption) vs methylphenidate (less consumption). In a systematic review and network meta-analysis, amphetamines had higher efficacy (rated by teachers or clinicians) than methylphenidate.14 At the same time, in a recent population-based study in the United States, individuals taking amphetamines, compared with methylphenidate, were approximately 3 times as likely to report misuse and twice as likely to report prescription stimulant use disorder.6 Findings suggest a need to better understand any differential addictive potential of prescription stimulant regimens.
+
+Iceland was the only other country with higher population-adjusted prescription stimulant consumption than the United States. In a recent report of a committee convened by the Iceland Ministry of Health to examine this issue, findings included concerns around how diagnoses are made, lack of utilization of non-stimulant treatments, lack of utilization and access to non-medication treatment approaches, and relatively high stimulant doses for adults, among others.15 The report emphasized the need to improve the quality of diagnoses, improve adherence to treatment guidelines, prioritize children and those with greater impairment, and increase access to non-medication supports and early intervention, among other recommendations.15 While demographically, culturally, and politically different, policymakers can consider similar initiatives in the United States to promote safe and judicious stimulant prescribing.
+
+This study has several limitations. First, while data are compiled by INCB, they are voluntarily reported by countries and may have biases or inaccuracies. For example, countries can have different administrative and technical capabilities to track and report controlled substance consumption, which can vary over time. While previously used metrics such as controlled substance sales have known limitations,16 government-reported consumption is a more direct measure that INCB began publishing more recently as country data completeness increased.9 Second, not all prescription stimulants are included in the data. For example, lisdexamfetamine, an important prescription stimulant in the United States and other countries, is not under international control and therefore not in INCB data. For example, in the United States in 2023, lisdexamfetamine comprised 19% of all stimulant prescriptions.2 Therefore, our findings may reflect a significant undercount for the United States and other countries with sizable uptake of lisdexamfetamine. Third, the reason for stimulant prescriptions is not known; however, ADHD is the likely driver of prescriptions, as data from the United States found a narcolepsy diagnosis in less than 0.1% of prescriptions.2
+
+In response to shortages, the United States Drug Enforcement Administration significantly increased annual production quotas of stimulant medications for 2026.17 While evidence suggests that quotas were not necessarily the limiting factor,5 increases in production quotas signal that prescribing is expected to continue increasing in the United States. Future efforts are needed to ensure accurate ADHD diagnosis and appropriate treatment as well as to identify and prevent potential harms from increased population exposure to prescription stimulants.
+
+
+## Supplementary Material
+
+
+
+## Acknowledgments
+
+
+None.
+
+
+## Contributor Information
+
+
+Marcus A Bachhuber, 
+Center for Evidence-Based Policy, Oregon Health & Science University, Portland, OR 97239, United States; 
+Department of Medicine, Oregon Health & Science University, Portland, OR 97239, United States.
+
+Ashly E Jordan, 
+New York State Office of Addiction Services and Supports, New York, NY 12203, United States.
+
+Brian J Piper, 
+Department of Medical Education, Geisinger College of Health Science, Scranton, PA 18509, United States; 
+Center for Pharmacy Innovation & Outcomes, Geisinger, Danville, PA 17822, United States.
+
+
+## Supplementary material
+
+
+Supplementary material is available at Health Affairs Scholar online.
+
+
+## Funding
+
+
+None.
+
+
+## Notes
+
+
+
+## Associated Data
+
+
+
+## Supplementary Materials

@@ -49,11 +49,17 @@
       "skillPath": "product-management/skills/synthesize-research/SKILL.md",
       "computedHash": "7921117657f8fc73856c5e518c464463cb94b86581d33b528a3f6be262fa42dc"
     },
-    "zotero-paper-reader": {
-      "source": "fuzhiyu/researchprojecttemplate",
-      "sourceType": "github",
-      "skillPath": "ProjectExample/.claude/skills/zotero-paper-reader/SKILL.md",
-      "computedHash": "dc6dd565023b79b771793178fd126cf72685286bcfd8033c31a0c5625c3485f9"
+    "summarize": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".opencode/skills/summarize/SKILL.md",
+      "computedHash": "b4827dd2542117fec148690cc49a654d295ac8c6abdf82f0267f59c33cd7504c"
+    },
+    "synthesis": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".opencode/skills/synthesis/SKILL.md",
+      "computedHash": "1d473241df332bd6ca0816b68511234e1cf0408979644b702f8b2b077a40e0b9"
     }
   }
 }

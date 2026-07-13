@@ -1,76 +1,175 @@
-import json
-import subprocess
-import os
+import sys
+import requests
+from bs4 import BeautifulSoup
+import re
 
-def fetch_references(pmid, output_file):
-    """Fetch references for a given PMID using the Europe PMC API."""
-    command = [
-        "uv", "run", "scripts/europepmc_api.py", "get_references",
-        "MED", pmid, "--output", output_file
-    ]
-    subprocess.run(command, check=True)
+def fetch_online_article(url):
+    """Fetch the text content from an online article."""
+    try:
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+        }
+        response = requests.get(url, headers=headers, timeout=10)
+        response.raise_for_status()
 
-def fetch_full_text(pmcid, output_file):
-    """Fetch full text for a given PMCID using the Europe PMC API."""
-    command = [
-        "uv", "run", "scripts/europepmc_api.py", "get_fulltext",
-        pmcid, "--output", output_file
-    ]
-    subprocess.run(command, check=True)
+        # Try to extract main content
+        soup = BeautifulSoup(response.text, 'html.parser')
 
-def summarize_article(full_text_file, output_file):
-    """Summarize the article using the summarize skill."""
-    with open(full_text_file, 'r') as f:
-        full_text = f.read()
+        # Remove script and style elements
+        for script in soup(["script", "style", "nav", "footer", "iframe"]):
+            script.decompose()
 
-    # Here you would integrate the summarization logic
-    # For now, we'll just write a placeholder summary
+        # Get text and clean it
+        text = soup.get_text()
+        lines = (line.strip() for line in text.splitlines())
+        chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
+        text = '\n'.join(chunk for chunk in chunks if chunk)
+
+        return text
+
+    except Exception as e:
+        print(f"Error fetching online article: {e}")
+        return None
+
+def summarize_text(text):
+    """Generate a summary of the article text."""
+    # Extract key sections from the text
+    lines = text.split('\n')
+
+    # Extract citation (first line or look for citation patterns)
+    citation = "Not provided"
+    for line in lines[:10]:  # Check first 10 lines
+        if "doi:" in line.lower() or "pmid:" in line.lower() or "pmcid:" in line.lower():
+            citation = line.strip()
+            break
+    if citation == "Not provided" and lines:
+        citation = lines[0].strip() if lines[0].strip() else "Not provided"
+
+    # Extract research question from Abstract
+    research_question = "Not provided"
+    for line in lines:
+        if "Question" in line or "Objective" in line or "Aim" in line:
+            research_question = line.strip()
+            break
+
+    # Extract methods
+    methods = "Not provided"
+    for i, line in enumerate(lines):
+        if "Methods" in line or "Setting and Design" in line or "METHODS" in line:
+            methods_start = i
+            # Extract until next section or end of text
+            methods_lines = []
+            for j in range(methods_start, len(lines)):
+                if lines[j].startswith('##') and j > methods_start:
+                    break
+                if lines[j].strip() and not lines[j].strip().startswith(('References', 'REFERENCES', 'Acknowledgements', 'ACKNOWLEDGEMENTS')):
+                    methods_lines.append(lines[j].strip())
+            methods = ' '.join(methods_lines)
+            break
+
+    # Extract results
+    results = "Not provided"
+    for i, line in enumerate(lines):
+        if "Results" in line or "RESULT" in line:
+            results_start = i
+            # Extract until next section or end of text
+            results_lines = []
+            for j in range(results_start, len(lines)):
+                if lines[j].startswith('##') and j > results_start:
+                    break
+                if lines[j].strip() and not lines[j].strip().startswith(('References', 'REFERENCES', 'Acknowledgements', 'ACKNOWLEDGEMENTS')):
+                    results_lines.append(lines[j].strip())
+            results = ' '.join(results_lines)
+            break
+
+    # Extract discussion
+    discussion = "Not provided"
+    for i, line in enumerate(lines):
+        if "Discussion" in line or "DISCUSSION" in line:
+            discussion_start = i
+            # Extract until next section or end of text
+            discussion_lines = []
+            for j in range(discussion_start, len(lines)):
+                if lines[j].startswith('##') and j > discussion_start:
+                    break
+                if lines[j].strip() and not lines[j].strip().startswith(('References', 'REFERENCES', 'Acknowledgements', 'ACKNOWLEDGEMENTS')):
+                    discussion_lines.append(lines[j].strip())
+            discussion = ' '.join(discussion_lines)
+            break
+
+    # Extract conclusion
+    conclusion = "Not provided"
+    for i, line in enumerate(lines):
+        if "Conclusions" in line or "Conclusion" in line or "CONCLUSION" in line:
+            conclusion_start = i
+            # Extract until next section or end of text
+            conclusion_lines = []
+            for j in range(conclusion_start, len(lines)):
+                if lines[j].startswith('##') and j > conclusion_start:
+                    break
+                if lines[j].strip() and not lines[j].strip().startswith(('References', 'REFERENCES', 'Acknowledgements', 'ACKNOWLEDGEMENTS')):
+                    conclusion_lines.append(lines[j].strip())
+            conclusion = ' '.join(conclusion_lines)
+            break
+
+    # Generate summary
     summary = f"""# Article Summary
 ## Citation
-Not provided
+{citation}
 
 ## Research Question
-Not provided
+{research_question}
 
 ## Methods
-Not provided
+{methods}
 
 ## Results
-Not provided
+{results}
 
 ## Discussion
-Not provided
+{discussion}
 
 ## Conclusion
-Not provided
+{conclusion}
 """
 
-    with open(output_file, 'w') as f:
-        f.write(summary)
+    return summary
 
 def main():
     # Example usage
-    pmid = "34265844"  # Example PMID
-    references_file = "references.json"
-    full_text_file = "fulltext.txt"
-    summary_file = "summary.md"
+    import sys
+    if len(sys.argv) < 2:
+        print("Usage: python summarize_article.py <input_file_or_url>")
+        sys.exit(1)
 
-    # Step 1: Fetch references
-    fetch_references(pmid, references_file)
+    input_source = sys.argv[1]
 
-    # Step 2: Extract PMCIDs from references and fetch full texts
-    with open(references_file, 'r') as f:
-        references = json.load(f)
+    # Check if input is a URL
+    if input_source.startswith(('http://', 'https://')):
+        print(f"Fetching article from URL: {input_source}")
+        article_text = fetch_online_article(input_source)
+        if not article_text:
+            print("Failed to fetch article from URL")
+            sys.exit(1)
+    else:
+        # Assume it's a local file
+        print(f"Reading article from file: {input_source}")
+        try:
+            with open(input_source, 'r') as f:
+                article_text = f.read()
+        except Exception as e:
+            print(f"Error reading file: {e}")
+            sys.exit(1)
 
-    for reference in references.get('references', []):
-        pmcid = reference.get('pmcid')
-        if pmcid:
-            full_text_file = f"fulltext_{pmcid}.txt"
-            fetch_full_text(pmcid, full_text_file)
+    # Generate summary
+    summary = summarize_text(article_text)
 
-            # Step 3: Summarize the article
-            summary_file = f"summary_{pmcid}.md"
-            summarize_article(full_text_file, summary_file)
+    # Write summary to file
+    output_file = "summary.md"
+    with open(output_file, 'w') as f:
+        f.write(summary)
+
+    print(f"Summary written to {output_file}")
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,244 @@
+# Pharmacological management of attention deficit hyperactivity disorder in adults
+
+## Abstract
+
+SUMMARYAttention deficit hyperactivity disorder (ADHD) is a common neurodevelopmental disorder that is characterised by inattention, hyperactivity or impulsivity. It affects around 3 to 5% of adults.The main pharmacotherapies for adults with ADHD include psychostimulants, such as methylphenidate and amphetamines (dexamfetamine and lisdexamfetamine), and non-psychostimulants such as atomoxetine.In Australia, the eligibility for subsidy under the Pharmaceutical Benefits Scheme varies depending on whether the patient was diagnosed with ADHD during childhood or adulthood.Individuals prescribed ADHD drugs should be monitored for both physical (e.g. cardiac symptoms, appetite changes, seizures) and psychiatric (e.g. mood disturbances, anxiety, psychosis) adverse effects.While pharmacological treatment is effective for adults with ADHD, it should be integrated into a broader, multidisciplinary approach that also includes nonpharmacological strategies such as psychological therapies and allied health support.Keywords:  ADHD, adults, attention deficit hyperactivity disorder, dexamfetamine, lisdexamfetamine, methylphenidate, psychostimulants
+
+
+## Introduction
+
+
+Attention deficit hyperactivity disorder (ADHD) is a common neurodevelopmental disorder affecting around 3 to 5% of adults.1,2 It is characterised by inattention, hyperactivity or impulsivity, with a negative impact on functioning.3
+
+This article describes ADHD management in adults; for guidance on pharmacological management in children and adolescents with ADHD, please refer to the recent article published in Australian Prescriber.
+
+The main pharmacological treatments for adults with ADHD are psychostimulants but non-psychostimulants may also be used. While not described in this article, nonpharmacological treatments, such as psychological and allied health interventions, as well as ADHD coaching, also play an important role in comprehensive ADHD management.
+
+
+## Psychiatric assessment
+
+
+Prior to starting pharmacological treatment for an adult with ADHD, a comprehensive psychiatric assessment is required. Most ADHD symptoms are transdiagnostic; for example, difficulty concentrating is present in 17 different diagnostic criteria in the Diagnostic and Statistical Manual of Mental Disorders 5th edition,4 and comorbid mental health conditions are very common in adults with ADHD.5 Treatment should therefore prioritise the condition causing the most significant impairment before diagnosing ADHD.5 In practice, a comprehensive psychiatric assessment may require multiple sessions.6
+
+
+## Pretreatment workup
+
+
+Many adults with ADHD, especially those diagnosed later in life, may have developed strategies to manage their symptoms without pharmacotherapy. As a result, the potential benefits of starting pharmacotherapy in this population may be lower than those observed in younger people. Further, older adults are more likely to have comorbidities (both physical and psychiatric) and be taking multiple drugs, thus increasing the risk of drug interactions. They may also have greater flexibility to modify their work or home environments to accommodate ADHD-related challenges compared with younger people. Therefore, decisions about starting ADHD drugs in adults, particularly those over 55 years of age where evidence is limited, should be guided by a shared decision-making process that carefully weighs the potential risks and benefits.
+
+A physical assessment should be conducted prior to starting drug treatment for ADHD, including measuring the patient’s heart rate, blood pressure and weight. Blood tests should be conducted to exclude other causes of inattention such as anaemia and thyroid problems, as well as establishing baseline kidney and liver function, and cardiometabolic status. Advice from a cardiologist should be considered if the patient has specific cardiovascular symptoms, such as excessive shortness of breath on exertion, fainting on exertion, palpitations, chest pain suggesting cardiac origin, a heart murmur, or hypertension. Cardiology input is also recommended if there is a history of congenital heart disease, previous cardiac surgery, or a first-degree relative with sudden cardiac death before 40 years of age.7,8
+
+A risk assessment for substance misuse and potential drug diversion should also be performed, including checking jurisdiction-specific prescription monitoring tools for information on other drug use. Urine drug screening may be considered if there are concerns about illicit drug use.
+
+
+## Pharmacological treatment
+
+
+There are 2 types of drugs for ADHD – psychostimulants and non-psychostimulants.9 In Australia, available psychostimulants include:
+
+methylphenidate
+
+methylphenidate immediate release: Ritalin
+
+methylphenidate modified release: Concerta, Ritalin LA
+
+amphetamines
+
+dexamfetamine immediate release
+
+lisdexamfetamine modified release: Vyvanse.
+
+Non-psychostimulant options for ADHD include atomoxetine, guanfacine and clonidine. Guanfacine is approved only for the treatment of ADHD in those diagnosed before 18 years of age. Clonidine is not approved for ADHD in Australia, so its use is considered off label.
+
+In most jurisdictions, pharmacotherapy for adults with ADHD is usually initiated by a psychiatrist. In some jurisdictions, general practitioners can now diagnose and prescribe drugs for ADHD. This is a rapidly evolving area, and prescribers should refer to their local jurisdiction’s regulations and requirements for prescribing.
+
+Eligibility for subsidised ADHD drugs under the Pharmaceutical Benefits Scheme (PBS) varies depending on the age at which the individual was diagnosed. Concerta (modified-release methylphenidate) is only PBS-subsidised for those diagnosed before 18 years of age. Ritalin LA (modified-release methylphenidate) and Vyvanse (lisdexamfetamine) are PBS-subsidised for individuals diagnosed before turning 18 or retrospectively after 18 years of age. For a retrospective diagnosis, the PBS requires evidence of pre-existing childhood symptoms of ADHD obtained from a parent, teacher, sibling, or other third party. None of the non-psychostimulants are PBS-subsidised for those diagnosed after 18 years of age.
+
+In terms of efficacy, a comprehensive review of ADHD drugs found that, in adults, amphetamines had the largest effect in reducing the severity of ADHD core symptoms at 12 weeks, while both methylphenidate and atomoxetine showed a similar small to moderate effect compared with placebo.9 The same review found that the evidence for guanfacine and clonidine in adults was inconclusive.9 A more recent systematic review found that psychostimulants and atomoxetine were more efficacious than placebo in reducing ADHD core symptoms at 12 weeks on both self-reported and clinician-reported rating scales. However, atomoxetine was less well tolerated than placebo, with more discontinuations due to adverse effects.10
+
+The first-line pharmacological treatment for adults with ADHD is a psychostimulant.7,8 If psychostimulants are contraindicated, not tolerated, or if the patient prefers, a non-psychostimulant can be prescribed, with atomoxetine having the most evidence in adults.9,10
+
+An overview of the main drugs used to treat adults with ADHD (psychostimulants and atomoxetine) is provided in Table 1, and their main contraindications and precautions are listed in Table 2.
+
+
+## Main drugs used to treat attention deficit hyperactivity disorder in adults (psychostimulants and atomoxetine) [NB1]7,8,11
+
+
+ADHD = attention deficit hyperactivity disorder; PBS = Pharmaceutical Benefits Scheme; TGA = Therapeutic Goods Administration
+
+NB1: For specific dosing information and guidance, refer to the Australian Evidence-based Clinical Practice Guideline for ADHD, the ADHD Prescribing Guide for Australian Healthcare Professionals, or drug information resources such as the Australian Medicines Handbook and the approved product information.
+
+
+## Contraindications and precautions with drugs used to treat attention deficit hyperactivity disorder in adults (psychostimulants and atomoxetine)13
+
+
+MAOI = monoamine oxidase inhibitor
+
+
+## Drug interactions
+
+
+While more of a caution than a contraindication, some potential drug interactions should be noted and carefully monitored. Co-administration of psychostimulants with serotonergic drugs, including selective serotonin reuptake inhibitors and serotonin noradrenaline reuptake inhibitors (SNRIs), may increase the risk of serotonin syndrome. Concurrent use with opioid analgesics can enhance analgesic effects, while combining psychostimulants with antihypertensive drugs may reduce the hypotensive efficacy of the latter. Additionally, co-administration with certain psychotropic drugs such as lithium, haloperidol and chlorpromazine may attenuate the therapeutic effects of psychostimulants.
+
+When prescribing atomoxetine, prescribers should be aware that co-administration with potent cytochrome P450 2D6 inhibitors (e.g. fluoxetine, paroxetine, bupropion) may elevate atomoxetine plasma concentrations. Furthermore, combining atomoxetine with SNRIs may increase the risk of cardiac adverse effects.
+
+
+## Monitoring
+
+
+Monitoring a patient receiving pharmacological treatment for ADHD involves assessing treatment response and adverse effects.
+
+
+## Treatment response
+
+
+As treatment response is variable, close monitoring is recommended when starting or adjusting ADHD drug treatment (e.g. weekly to monthly, reducing to every 3 to 6 months after dose stabilisation). Administering a self-report symptoms questionnaire, such as the Adult ADHD Self-Report Scale,14 is helpful in monitoring the subjective report of benefits over time. Also, functional changes, such as improvement in work performance, may be useful to track.
+
+If the patient does not respond to the first psychostimulant, the factors outlined in Box 1 should be considered. Lack of response following adequate trials of psychostimulants and atomoxetine warrants a referral to a psychiatrist.9
+
+
+## Factors to consider when there is a lack of response to drugs for attention deficit hyperactivity disorder15
+
+
+
+## Is the diagnosis correct?
+
+
+Ensure that ADHD-like symptoms are not primarily driven by another psychiatric or medical condition.
+
+
+## Has an appropriate titration occurred?
+
+
+Ensure that the maximum tolerable dose has been reached.
+
+
+## Are the appropriate symptoms being targeted?
+
+
+Psychostimulants may be more effective for the core symptoms of ADHD (i.e. inattention, hyperactivity, impulsivity) but less effective for the non-core symptoms of ADHD such as executive dysfunction and emotional dysregulation.
+
+
+## Are there other psychosocial issues to consider?
+
+
+Ensure that other psychosocial issues are appropriately addressed.
+
+
+## Have relevant comorbidities been addressed?
+
+
+Explore, identify and manage other comorbidities (e.g. depression, anxiety, substance use) appropriately.
+
+ADHD = attention deficit hyperactivity disorder
+
+
+## Adverse effects
+
+
+Common adverse effects (between 1 and 10%) of most ADHD drugs include cardiac symptoms (e.g. elevated heart rate and blood pressure), appetite suppression (which may lead to weight loss), psychiatric symptoms (e.g. worsening of mood, anxiety) and sleep disturbance. Psychosis with psychostimulants is rare (between 0.01 and 0.1%); however, observational data suggest amphetamines may be associated with a higher risk of psychosis than methylphenidate.16 Nevertheless, if significant or severe psychiatric symptoms develop, particularly psychosis or mania, the psychostimulant should be stopped immediately, and the patient should be referred to a psychiatrist (Box 2). Likewise, cardiology input should be sought if there are any concerning new-onset cardiac symptoms (Box 2) after starting treatment.
+
+
+## Suggested monitoring for adults receiving drugs for attention deficit hyperactivity disorder (psychostimulants and atomoxetine)7
+
+
+Persistently elevated heart rate and blood pressure
+
+Specific cardiac symptoms (excessive shortness of breath or fainting on exertion, palpitations that are rapid, regular and start and stop suddenly, chest pain suggesting cardiac origin, a heart murmur)
+
+Weight loss
+
+Psychiatric symptoms (e.g. worsening of mood, anxiety, psychosis-like symptoms, agitation, irritability, suicidal thinking, self-harming behaviour)
+
+Significant or severe sleep disturbance
+
+Possible drug misuse or diversion (e.g. excessive drug use recorded on real-time prescription monitoring systems)
+
+For atomoxetine – signs of acute liver damage (e.g. abdominal pain, unexplained nausea, malaise, darkening of the urine, jaundice)
+
+At each follow-up, additional issues should be reviewed, such as coexisting conditions (physical and psychiatric), the need for psychological, social and occupational support, and the views of the person with ADHD and their family member or friend.
+
+Misuse and diversion of ADHD drugs, especially psychostimulants, are common.17 Prescribers should have an open and non-judgemental discussion with patients about the potential for misuse and expectations regarding such behaviour before starting treatment. Prescribers should check real-time prescription monitoring systems before issuing each prescription or at each clinical review for patterns of potential drug misuse or diversion.
+
+
+## General principles of prescribing drugs for ADHD
+
+
+General principles of prescribing drugs for ADHD are summarised in Box 3.
+
+
+## General principles of prescribing drugs for attention deficit hyperactivity disorder7
+
+
+Start on a low dose and gradually increase the dose until there is no further improvement in symptoms, behaviour or impairment, and adverse effects are tolerable.
+
+Record symptoms and adverse effects at each dose change after discussion with the patient and, if possible, a family member or friend.
+
+Review progress regularly (e.g. weekly and at each dose change).
+
+Reduce rate of dose titration if tics or seizures are present or in those with autism and intellectual disability.
+
+Consider dose reduction or trial an alternative psychostimulant if adverse effects are troublesome.
+
+
+## Longer term use of ADHD drugs
+
+
+There is limited evidence to guide the long-term use of ADHD drugs.9,10,18,19 A key consideration in this context is the potential for increased cardiovascular risk with longer term use, given that most ADHD drugs can elevate heart rate and blood pressure.20 Although a systematic review of observational studies with a median follow-up of 1.5 years found no statistically significant association between ADHD drugs and cardiovascular mortality or morbidity (e.g. cardiac arrest, arrhythmias, myocardial infarction), there was significant heterogeneity between studies.19
+
+Decisions about continuing ADHD pharmacotherapy should consider the individual’s evolving needs, circumstances and available supports (including nonpharmacological interventions), while noting that evidence on the safety of psychostimulants in individuals aged 55 years and over remains limited. A trial of discontinuation may be appropriate if the potential benefits of stopping pharmacotherapy outweigh the risks and the individual has strategies and supports in place to manage their symptoms. Psychostimulants and atomoxetine can be stopped abruptly; however, a gradual dose reduction may help minimise unpleasant lethargy and amotivation.13
+
+
+## Pregnancy and breastfeeding
+
+
+Prescribing ADHD drugs during pregnancy and breastfeeding should involve a shared decision-making process that considers the risks associated with ADHD drug treatment alongside the risks of insufficiently managed ADHD.
+
+Current limited evidence suggests that amphetamines and atomoxetine may be preferred during pregnancy.21 The Therapeutic Goods Administration classifies dexamfetamine, lisdexamfetamine and atomoxetine as category B3 drugs (i.e. although evidence is limited, no increase in the frequency of malformation or other harmful effects on the human fetus have been observed). Methylphenidate is classified as category D (i.e. should not be prescribed for pregnant women unless the potential benefits outweigh the possible risks), mainly due to the increased risk of fetal cardiac malformation seen in large observational studies.22
+
+Evidence on the safety of ADHD drugs during breastfeeding is limited. The relative infant dose, an estimate of infant drug exposure via breastmilk, of methylphenidate is less than 1%, and it is generally undetectable in the blood of breastfed infants; thus, methylphenidate is generally preferred during breastfeeding.21 Amphetamines have been found at low but detectable amounts in infant plasma; however, the relative infant doses were below 10% (a threshold generally considered safe for breastfeeding).21 For atomoxetine, no published studies are currently available. If the decision is made to breastfeed while being treated with any ADHD drug, the infant should be monitored closely for adverse effects, including irritability, insomnia and feeding difficulty.21
+
+
+## Patient education
+
+
+It is essential to provide patients with information about the likely benefits and potential adverse effects of ADHD drugs.15 Written information, such as the Australian Evidence-Based Clinical Practice Guideline for ADHD: Consumer Companion Guide, may be helpful in augmenting patient education. Some example wording is provided in Box 4.
+
+
+## Example wording for patient education23
+
+
+Although taking ADHD medications may reduce ADHD symptoms, it may not take away all of the ADHD-related challenges.
+
+Pills don’t teach skills, and medications do not have 24-hour coverage; therefore, medication should only form one part of your ADHD treatment plan.
+
+Some people notice the change immediately, while for others, it might take 2 to 3 months (especially with atomoxetine).
+
+With your medication, you may notice that you can think more clearly, be more organised, and find tasks easier to complete. You may also feel less anxious, be more present when talking to people, be less impulsive, and be more able to regulate your emotions.
+
+Some people may be at risk of burning themselves out when they start ADHD medication. Although they may find things much easier, they may forget that everyone has a limited energy source.
+
+ADHD = attention deficit hyperactivity disorder
+
+
+## Conclusion
+
+
+When pharmacological management of ADHD is indicated in an adult, psychostimulants, including methylphenidate and amphetamines, are first line. Atomoxetine is an option if psychostimulants cannot be used or tolerated. Pharmacological management for adults with ADHD requires a nuanced, patient-centred approach grounded in comprehensive assessment and ongoing monitoring for treatment response and adverse effects.
+
+This article was finalised on 5 December 2025.
+
+This article is peer reviewed.
+
+
+## Footnotes
+
+
+Conflicts of interest: Shuichi Suetani has received honoraria from Sage Publishing (2025), Inside Practice Psychiatry (2021) and groupH (2021). Shuichi received advisory fees from Seqirus in relation to cariprazine (2020 to 2022). He received full registration and accommodation support from the conference organisers to attend the Royal Australian and New Zealand College of Psychiatrists Queensland Weekend Conference (2021 to 2024). He also received partial travel and accommodation support from the Rural Doctors Network to attend the Rural GPs Refresher Conference (2025).
+
+James Scott’s employer, The University of Queensland, received funding from Lundbeck Australia, Otsuka Australia and Janssen Cilag for James’ involvement on advisory boards and delivering of lectures on psychosis treatment at educational events.
+
+Jaimie Hull has no conflicts of interest to declare.
+
+
+## References

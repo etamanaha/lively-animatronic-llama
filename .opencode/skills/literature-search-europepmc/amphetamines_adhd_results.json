@@ -1,0 +1,1962 @@
+{
+  "hitCount": 1909,
+  "nextCursorMark": "AoIIQJr65Cg1NTE4OTU2NA==",
+  "results": [
+    {
+      "id": "41860539",
+      "source": "MED",
+      "pmid": "41860539",
+      "pmcid": "PMC13005163",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC13005163"
+        ]
+      },
+      "doi": "10.1001/jamahealthforum.2026.0041",
+      "title": "Manufacturing Supply Chains and Imports in the ADHD Drug Shortage.",
+      "authorString": "Currie J, Malinovskaya A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Currie J",
+            "firstName": "Janet",
+            "lastName": "Currie",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Economics, Yale University, New Haven, Connecticut."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Malinovskaya A",
+            "firstName": "Anna",
+            "lastName": "Malinovskaya",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Economics, Yale University, New Haven, Connecticut."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "journalInfo": {
+        "issue": "3",
+        "volume": "7",
+        "journalIssueId": 4141874,
+        "dateOfPublication": "2026 Mar",
+        "monthOfPublication": 3,
+        "yearOfPublication": 2026,
+        "printPublicationDate": "2026-03-01",
+        "journal": {
+          "title": "JAMA health forum",
+          "medlineAbbreviation": "JAMA Health Forum",
+          "issn": "2689-0186",
+          "nlmid": "101769500",
+          "isoabbreviation": "JAMA Health Forum",
+          "essn": "2689-0186"
+        }
+      },
+      "pubYear": "2026",
+      "pageInfo": "e260041",
+      "abstractText": "<h4>Importance</h4>The US has faced a nationwide shortage of attention-deficit/hyperactivity disorder (ADHD) medications since 2022, yet the underlying causes remain unclear. Public debate has largely centered on prescribing trends and Drug Enforcement Administration (DEA) quotas, although evidence suggests that quotas were not binding. A sound policy response requires a clear understanding of the drivers behind the shortage.<h4>Objective</h4>To examine descriptive evidence on the potential causes of the shortage.<h4>Setting and design</h4>In this economic evaluation, we use time series data (2015-2025) from multiple sources, such as Symphony Health and the DEA's Automation of Reports and Consolidated Orders System (ARCOS) summary reports, to characterize US production, consumption, and trade of amphetamine-based and other stimulants, including manufacturer-level production volumes, before and during the shortage period.<h4>Findings</h4>The sharp, simultaneous production cutbacks across several medium-sized and smaller manufacturers in late 2022 and early 2023 coincided with a steep contraction in US imports of raw amphetamines and more modest declines in phenylacetone, a key precursor.<h4>Conclusions and relevance</h4>These patterns align with manufacturers' reports to the US Food and Drug Administration citing a shortage of the active ingredient as the cause of backorders. More broadly, this economic evaluation reframes the discussion of ADHD medication shortages beyond DEA quotas, highlighting the vulnerability of US pharmaceutical manufacturing to international supply chain disruptions and underscoring the need for policies that strengthen supply chain resilience.",
+      "affiliation": "Department of Economics, Yale University, New Haven, Connecticut.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Amphetamines",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "SD",
+                  "qualifierName": "supply & distribution",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Central Nervous System Stimulants",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "EC",
+                  "qualifierName": "economics",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "SD",
+                  "qualifierName": "supply & distribution",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "TU",
+                  "qualifierName": "therapeutic use",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Attention Deficit Disorder with Hyperactivity",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "DT",
+                  "qualifierName": "drug therapy",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Commerce",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "SN",
+                  "qualifierName": "statistics & numerical data",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Drug Industry",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "EC",
+                  "qualifierName": "economics",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "SN",
+                  "qualifierName": "statistics & numerical data",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "United States"
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Amphetamines",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Central Nervous System Stimulants",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1001/jamahealthforum.2026.0041"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13005163"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 0,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by-nc-nd",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2026-07-11",
+      "dateOfCreation": "2026-03-20",
+      "firstIndexDate": "2026-03-20",
+      "fullTextReceivedDate": "2026-03-22",
+      "dateOfRevision": "2026-07-11",
+      "electronicPublicationDate": "2026-03-06",
+      "firstPublicationDate": "2026-03-06"
+    },
+    {
+      "id": "42305717",
+      "source": "MED",
+      "pmid": "42305717",
+      "pmcid": "PMC13268762",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC13268762"
+        ]
+      },
+      "doi": "10.1093/haschl/qxag133",
+      "title": "Prescription stimulant consumption in the United States compared with 35 other countries.",
+      "authorString": "Bachhuber MA, Jordan AE, Piper BJ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Bachhuber MA",
+            "firstName": "Marcus A",
+            "lastName": "Bachhuber",
+            "initials": "MA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Evidence-Based Policy, Oregon Health & Science University, Portland, OR 97239, United States."
+                },
+                {
+                  "affiliation": "Department of Medicine, Oregon Health & Science University, Portland, OR 97239, United States."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jordan AE",
+            "firstName": "Ashly E",
+            "lastName": "Jordan",
+            "initials": "AE",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9426-2869"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "New York State Office of Addiction Services and Supports, New York, NY 12203, United States."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Piper BJ",
+            "firstName": "Brian J",
+            "lastName": "Piper",
+            "initials": "BJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2295-445X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medical Education, Geisinger College of Health Science, Scranton, PA 18509, United States."
+                },
+                {
+                  "affiliation": "Center for Pharmacy Innovation & Outcomes, Geisinger, Danville, PA 17822, United States."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9426-2869"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2295-445X"
+          }
+        ]
+      },
+      "journalInfo": {
+        "issue": "6",
+        "volume": "4",
+        "journalIssueId": 4204132,
+        "dateOfPublication": "2026 Jun",
+        "monthOfPublication": 6,
+        "yearOfPublication": 2026,
+        "printPublicationDate": "2026-06-01",
+        "journal": {
+          "title": "Health affairs scholar",
+          "medlineAbbreviation": "Health Aff Sch",
+          "issn": "2976-5390",
+          "nlmid": "9918627882906676",
+          "isoabbreviation": "Health Aff Sch",
+          "essn": "2976-5390"
+        }
+      },
+      "pubYear": "2026",
+      "pageInfo": "qxag133",
+      "abstractText": "<h4>Introduction</h4>Previous studies have identified the United States as a global outlier in stimulant prescribing. Given that stimulant prescribing in the United States has continued to increase, we aimed to provide current international comparisons.<h4>Methods</h4>We analyzed 2024 stimulant consumption data from the International Narcotics Control Board, reported as defined daily doses for statistical purposes (S-DDD) per 1000 population per day. We compared the United States with 35 Organization for Economic Cooperation and Development members.<h4>Results</h4>Overall, the United States comprised 26.8% of the population and consumed 67.6% of prescription stimulants. Per 1000 population per day, the United States had the second highest prescription stimulant consumption after Iceland. The volume of prescription stimulants consumed in the United States per 1000 population per day was 569% of the mean of comparison countries. Further, only 31.2% of consumed prescription stimulants in the United States was methylphenidate, vs 88.8% in comparison countries.<h4>Conclusion</h4>Additional research is needed on the clinical and public health consequences of these major differences in controlled substance policy and clinical practice between the United States and other countries. For example, findings suggest a need to better understand any differential addictive potential of prescription stimulant regimens.",
+      "affiliation": "Center for Evidence-Based Policy, Oregon Health & Science University, Portland, OR 97239, United States.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic-eCollection",
+      "pubTypeList": {
+        "pubType": [
+          "brief-report",
+          "Journal Article"
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "ADHD",
+          "Methylphenidate",
+          "Amphetamines",
+          "Pharmaceutical Policy"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1093/haschl/qxag133"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13268762"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13268762?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 0,
+      "hasData": "Y",
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "N",
+      "license": "cc by-nc",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2026-06-17",
+      "dateOfCreation": "2026-06-17",
+      "firstIndexDate": "2026-06-18",
+      "fullTextReceivedDate": "2026-06-26",
+      "dateOfRevision": "2026-06-17",
+      "electronicPublicationDate": "2026-05-29",
+      "firstPublicationDate": "2026-05-29"
+    },
+    {
+      "id": "41819086",
+      "source": "MED",
+      "pmid": "41819086",
+      "pmcid": "PMC13116050",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC13116050"
+        ]
+      },
+      "doi": "10.1111/camh.70084",
+      "title": "Clinical research updates.",
+      "authorString": "Kyriakopoulos M, Apostolou D, Kourtidou S, Karakotia A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Kyriakopoulos M",
+            "firstName": "Marinos",
+            "lastName": "Kyriakopoulos",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4594-2646"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "National and Kapodistrian University of Athens, Athens, Greece."
+                },
+                {
+                  "affiliation": "Department of Child and Adolescent Psychiatry, Institute of Psychiatry Psychology and Neuroscience, King's College London, London, UK."
+                },
+                {
+                  "affiliation": "South London and Maudsley NHS Foundation Trust, London, UK."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Apostolou D",
+            "firstName": "Dimitrios",
+            "lastName": "Apostolou",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "National and Kapodistrian University of Athens, Athens, Greece."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kourtidou S",
+            "firstName": "Sofia",
+            "lastName": "Kourtidou",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "National and Kapodistrian University of Athens, Athens, Greece."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Karakotia A",
+            "firstName": "Alexandra",
+            "lastName": "Karakotia",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "National and Kapodistrian University of Athens, Athens, Greece."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4594-2646"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "journalInfo": {
+        "issue": "2",
+        "volume": "31",
+        "journalIssueId": 4185752,
+        "dateOfPublication": "2026 May",
+        "monthOfPublication": 5,
+        "yearOfPublication": 2026,
+        "printPublicationDate": "2026-05-01",
+        "journal": {
+          "title": "Child and adolescent mental health",
+          "medlineAbbreviation": "Child Adolesc Ment Health",
+          "issn": "1475-357X",
+          "nlmid": "101142157",
+          "isoabbreviation": "Child Adolesc Ment Health",
+          "essn": "1475-3588"
+        }
+      },
+      "pubYear": "2026",
+      "pageInfo": "162-164",
+      "affiliation": "National and Kapodistrian University of Athens, Athens, Greece.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1111/camh.70084"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13116050"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13116050?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "citedByCount": 0,
+      "hasData": "N",
+      "hasReferences": "N",
+      "hasTextMinedTerms": "N",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-03-12",
+      "firstIndexDate": "2026-03-13",
+      "fullTextReceivedDate": "2026-05-18",
+      "dateOfRevision": "2026-04-29",
+      "electronicPublicationDate": "2026-03-12",
+      "firstPublicationDate": "2026-03-12"
+    },
+    {
+      "id": "42150008",
+      "source": "MED",
+      "pmid": "42150008",
+      "title": "Guanfacine Extended Release: Reimbursement request: For monotherapy of ADHD in children and adolescents aged 6 to 17 years: Reimbursement Recommendation",
+      "pubYear": "2026",
+      "abstractText": "<h4>What is the reimbursement recommendation for guanfacine extended release?</h4>The Formulary Management Expert Committee (FMEC) recommends that guanfacine extended release (XR) be reimbursed for monotherapy of attention-deficit/hyperactivity disorder (ADHD) in children and adolescents aged 6 years to 17 years, provided certain conditions are met.<h4>What are the conditions for reimbursement?</h4>Guanfacine XR may be reimbursed for monotherapy of ADHD in children and adolescents aged 6 years to 17 years, provided they meet the following conditions: the individual has experienced intolerable adverse events with at least 1 amphetamine-based psychostimulant and 1 methylphenidate-based psychostimulant that require discontinuation, or the individual has contraindications to the use of psychostimulants. Guanfacine XR should be discontinued if there are unacceptable toxicities. Guanfacine XR must represent good value to the drug plans.<h4>Why did canada\u2019s drug agency make this recommendation?</h4>FMEC reviewed the report by Canada\u2019s Drug Agency (CDA-AMC), which included a review of the clinical evidence \u2014 specifically 1 systematic review with network meta-analysis comparing monotherapy oral medications (i.e., amphetamines, methylphenidate, modafinil, atomoxetine, clonidine, guanfacine, or bupropion) and placebo for the treatment of ADHD in children and adolescents. The review also included 3 long-term extension studies of guanfacine XR as monotherapy for the treatment of ADHD in children and adolescents and a drug cost comparison of guanfacine XR and other treatment options in Canada. No input from external partners was received for this review. Evidence from the systematic review with network meta-analysis suggests that guanfacine XR used as monotherapy for the treatment of children and adolescents with ADHD may result in improvement in ADHD core symptoms assessed by clinicians compared with placebo. Guanfacine XR may result in less improvement in ADHD core symptoms compared with amphetamines, with little to no difference compared with atomoxetine or methylphenidate. Guanfacine XR is available as a generic drug in Canada. While FMEC concluded there was uncertainty in the clinical value, FMEC agreed that guanfacine XR addressed significant unmet clinical needs. The reimbursement conditions were further developed based on distinct social and ethical considerations, economic considerations, and impacts on health systems.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubTypeList": {
+        "pubType": [
+          "Review"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "Canadian Agency for Drugs and Technologies in Health, Ottawa (ON)",
+        "yearOfPublication": 2026,
+        "seriesName": "CADTH Reimbursement Reviews and Recommendations",
+        "comprisingTitle": "Guanfacine Extended Release: Reimbursement request: For monotherapy of ADHD in children and adolescents aged 6 to 17 years: Reimbursement Recommendation",
+        "extraInformation": "Report No.: SX0755rec"
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "NCBI_Bookshelf",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK622380"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "N",
+      "hasBook": "Y",
+      "bookid": "NBK622380",
+      "hasSuppl": "N",
+      "citedByCount": 0,
+      "hasData": "N",
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "N",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-02-01",
+      "firstIndexDate": "2026-05-24",
+      "firstPublicationDate": "2026-02-01"
+    },
+    {
+      "id": "42128970",
+      "source": "MED",
+      "pmid": "42128970",
+      "pmcid": "PMC13171699",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC13171699"
+        ]
+      },
+      "doi": "10.1007/s11914-026-00965-2",
+      "title": "Stimulant Medications and Bone Health.",
+      "authorString": "Swanson CM, Wolfe JH, Calarge CA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Swanson CM",
+            "firstName": "Christine M",
+            "lastName": "Swanson",
+            "initials": "CM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1554-0862"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Endocrinology, Metabolism and Diabetes, University of Colorado Anschutz, 12801 E. 17th Ave. Mail Stop 8106, Aurora, CO, 80045, USA. Christine.Swanson@CUAnschutz.edu."
+                },
+                {
+                  "affiliation": "Geriatric Research, Education and Clinical Center, Rocky Mountain Regional VA, Aurora, CO, USA. Christine.Swanson@CUAnschutz.edu."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wolfe JH",
+            "firstName": "Julie H",
+            "lastName": "Wolfe",
+            "initials": "JH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Psychiatry, University of Colorado Anschutz, Aurora, CO, USA. Julie.Wolfe@CUAnschutz.edu."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Calarge CA",
+            "firstName": "Chadi A",
+            "lastName": "Calarge",
+            "initials": "CA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Menninger Department of Psychiatry and Behavioral Sciences, Baylor College of Medicine, Houston, TX, USA. Chadi.Calarge@bcm.edu."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1554-0862"
+          }
+        ]
+      },
+      "journalInfo": {
+        "issue": "1",
+        "volume": "24",
+        "journalIssueId": 4187996,
+        "dateOfPublication": "2026 May",
+        "monthOfPublication": 5,
+        "yearOfPublication": 2026,
+        "printPublicationDate": "2026-05-01",
+        "journal": {
+          "title": "Current osteoporosis reports",
+          "medlineAbbreviation": "Curr Osteoporos Rep",
+          "issn": "1544-1873",
+          "nlmid": "101176492",
+          "isoabbreviation": "Curr Osteoporos Rep",
+          "essn": "1544-2241"
+        }
+      },
+      "pubYear": "2026",
+      "pageInfo": "23",
+      "abstractText": "<h4>Purpose of review</h4>This review summarizes the potential impact of stimulant medications on bone health, to raise awareness and optimize their safe use.<h4>Recent findings</h4>Stimulant medications can impair bone health through inadequate nutrient/calorie intake and stimulation of the sympathetic nervous system, which regulates bone metabolism. However, their use decreases fracture risk in younger populations ([Formula: see text]25 years old) with attention deficit/hyperactivity disorder (ADHD), likely through reductions in impulsivity and injury. Special care may be needed when fractures occur while using these medications, as recent data suggest psychostimulants are associated with impaired fracture healing. Prescription and non-prescription use of psychostimulants have increased. Their ultimate effect on bone health may be a balance between effective behavioral modification and adverse effects on bone metabolism related to nutrition and sympathetic activation. Future research should investigate how psychostimulants affect acquisition of peak bone mass, stability of bone mineral density (BMD) when used through mid/late-life, and fracture healing.",
+      "affiliation": "Division of Endocrinology, Metabolism and Diabetes, University of Colorado Anschutz, 12801 E. 17th Ave. Mail Stop 8106, Aurora, CO, 80045, USA. Christine.Swanson@CUAnschutz.edu.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "grantId": "R01HD101326",
+            "agency": "National Institute of Child Health and Human Development",
+            "orderIn": 0
+          },
+          {
+            "grantId": "R01HL151332",
+            "agency": "National Heart, Lung, and Blood Institute",
+            "orderIn": 0
+          },
+          {
+            "grantId": "R01HL151332",
+            "agency": "NHLBI NIH HHS",
+            "acronym": "HL",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Bone and Bones",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "DE",
+                  "qualifierName": "drug effects",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Methylphenidate",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "TU",
+                  "qualifierName": "therapeutic use",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Central Nervous System Stimulants",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "AE",
+                  "qualifierName": "adverse effects",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "PD",
+                  "qualifierName": "pharmacology",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "TU",
+                  "qualifierName": "therapeutic use",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Attention Deficit Disorder with Hyperactivity",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "DT",
+                  "qualifierName": "drug therapy",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Fracture Healing",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "DE",
+                  "qualifierName": "drug effects",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Bone Density",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "DE",
+                  "qualifierName": "drug effects",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Fractures, Bone"
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Fracture",
+          "amphetamine",
+          "Bone mineral density (BMD)",
+          "Methylphenidate",
+          "Stimulant Medication",
+          "Attention Deficit/hyperactivity Disorder (Adhd)"
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Central Nervous System Stimulants",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Methylphenidate",
+            "registryNumber": "207ZZ9QZ49"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1007/s11914-026-00965-2"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13171699"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13171699?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "citedByCount": 0,
+      "hasData": "N",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "N",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2026-06-24",
+      "dateOfCreation": "2026-05-13",
+      "firstIndexDate": "2026-05-15",
+      "fullTextReceivedDate": "2026-05-20",
+      "dateOfRevision": "2026-06-24",
+      "electronicPublicationDate": "2026-05-14",
+      "firstPublicationDate": "2026-05-14"
+    },
+    {
+      "id": "41736842",
+      "source": "MED",
+      "pmid": "41736842",
+      "pmcid": "PMC12928839",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC12928839"
+        ]
+      },
+      "doi": "10.18773/austprescr.2026.002",
+      "title": "Pharmacological management of attention deficit hyperactivity disorder in adults.",
+      "authorString": "Suetani S, Hull J, Scott JG.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Suetani S",
+            "firstName": "Shuichi",
+            "lastName": "Suetani",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2487-5691"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Urban Indigenous Health, Brisbane."
+                },
+                {
+                  "affiliation": "Queensland Centre for Mental Health Research, The University of Queensland, Brisbane."
+                },
+                {
+                  "affiliation": "School of Medicine and Dentistry, Griffith University, Brisbane."
+                },
+                {
+                  "affiliation": "Child Health Research Centre, The University of Queensland, Brisbane."
+                },
+                {
+                  "affiliation": "Child and Youth Mental Health Service, Children's Health Queensland, Brisbane."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hull J",
+            "firstName": "Jaimie",
+            "lastName": "Hull",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Urban Indigenous Health, Brisbane."
+                },
+                {
+                  "affiliation": "Queensland Centre for Mental Health Research, The University of Queensland, Brisbane."
+                },
+                {
+                  "affiliation": "School of Medicine and Dentistry, Griffith University, Brisbane."
+                },
+                {
+                  "affiliation": "Child Health Research Centre, The University of Queensland, Brisbane."
+                },
+                {
+                  "affiliation": "Child and Youth Mental Health Service, Children's Health Queensland, Brisbane."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Scott JG",
+            "firstName": "James G",
+            "lastName": "Scott",
+            "initials": "JG",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0744-0688"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Urban Indigenous Health, Brisbane."
+                },
+                {
+                  "affiliation": "Queensland Centre for Mental Health Research, The University of Queensland, Brisbane."
+                },
+                {
+                  "affiliation": "School of Medicine and Dentistry, Griffith University, Brisbane."
+                },
+                {
+                  "affiliation": "Child Health Research Centre, The University of Queensland, Brisbane."
+                },
+                {
+                  "affiliation": "Child and Youth Mental Health Service, Children's Health Queensland, Brisbane."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0744-0688"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2487-5691"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "journalInfo": {
+        "issue": "1",
+        "volume": "49",
+        "journalIssueId": 4131431,
+        "dateOfPublication": "2026 Feb",
+        "monthOfPublication": 2,
+        "yearOfPublication": 2026,
+        "printPublicationDate": "2026-02-01",
+        "journal": {
+          "title": "Australian prescriber",
+          "medlineAbbreviation": "Aust Prescr",
+          "issn": "0312-8008",
+          "nlmid": "7804938",
+          "isoabbreviation": "Aust Prescr",
+          "essn": "1839-3942"
+        }
+      },
+      "pubYear": "2026",
+      "pageInfo": "10-15",
+      "abstractText": "Attention deficit hyperactivity disorder (ADHD) is a common neurodevelopmental disorder that is characterised by inattention, hyperactivity or impulsivity. It affects around 3 to 5% of adults. The main pharmacotherapies for adults with ADHD include psychostimulants, such as methylphenidate and amphetamines (dexamfetamine and lisdexamfetamine), and non-psychostimulants such as atomoxetine. In Australia, the eligibility for subsidy under the Pharmaceutical Benefits Scheme varies depending on whether the patient was diagnosed with ADHD during childhood or adulthood. Individuals prescribed ADHD drugs should be monitored for both physical (e.g. cardiac symptoms, appetite changes, seizures) and psychiatric (e.g. mood disturbances, anxiety, psychosis) adverse effects. While pharmacological treatment is effective for adults with ADHD, it should be integrated into a broader, multidisciplinary approach that also includes nonpharmacological strategies such as psychological therapies and allied health support.",
+      "affiliation": "Institute for Urban Indigenous Health, Brisbane.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print",
+      "pubTypeList": {
+        "pubType": [
+          "review-article",
+          "Journal Article"
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "ADHD",
+          "Adults",
+          "Methylphenidate",
+          "Attention Deficit Hyperactivity Disorder",
+          "Lisdexamfetamine",
+          "Psychostimulants",
+          "Dexamfetamine"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.18773/austprescr.2026.002"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC12928839"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC12928839?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "citedByCount": 0,
+      "hasData": "N",
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by-nc-nd",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2026-02-25",
+      "dateOfCreation": "2026-02-25",
+      "firstIndexDate": "2026-02-25",
+      "fullTextReceivedDate": "2026-02-24",
+      "dateOfRevision": "2026-03-25",
+      "firstPublicationDate": "2026-02-01"
+    },
+    {
+      "id": "42118895",
+      "source": "MED",
+      "pmid": "42118895",
+      "title": "Guanfacine Hydrochloride Extended Release: Therapeutic area: Attention-deficit/hyperactivity disorder: Reimbursement Review",
+      "pubYear": "2026",
+      "abstractText": "<h4>What is attention-deficit/hyperactivity disorder?</h4>\u2022 Attention-deficit/hyperactivity disorder (ADHD) is a neurodevelopmental disorder most commonly identified in children and adolescents that often continues into adulthood. It is an impairment of the ability to regulate attention or focus. ADHD can present differently in different people. Some symptoms may include forgetfulness, impulsivity, disorganization, distracted behaviour, and restlessness. People with ADHD can also experience emotional dysregulation. These factors may contribute to learning challenges, problems with self-esteem, and difficulties with relationships. \u2022 In Canada, the prevalence of ADHD in children and adolescents combined is estimated to range from 2.6% to 8.6%. The prevalence is thought to be higher in males (range, 3.7% to 13.3%) than in females (range, 1.5% to 7.0%).<h4>What are the treatment goals and current treatment options for adhd?</h4>\u2022 The treatment goals for children and adolescents with ADHD are to reduce hyperactivity, impulsivity (including aggressive impulsive actions), inattention, oppositional behaviours, and emotional dysregulation to improve their development (e.g., learning, social development, cognitive outcomes, and health-related quality of life [HRQoL]). \u2022 Methylphenidate and dextroamphetamine (or mixed amphetamine salts) preparations are common psychostimulant (PST) medications used as first-line treatment to target symptoms. \u2022 However, PST treatment is not helpful to all patients, particularly those with certain medical conditions. This includes those who cannot tolerate PSTs due to their adverse effects; those whose disease does not have a clinical response to PSTs; those for whom optimized PST use results in only a partial disease response; and those whose families may feel strongly that PST medications are not a good option for them. \u2022 Guanfacine hydrochloride extended release (GXR), a nonstimulant medication, could be used as a second-line treatment as monotherapy or as adjunctive therapy to a PST for patients whose disease responds suboptimally to PSTs alone.<h4>What is gxr and why did canada\u2019s drug agency conduct this review?</h4>\u2022 GXR, an alpha-2a agonist, is available as an oral tablet. Health Canada has approved GXR as monotherapy for the treatment of ADHD in children and adolescents aged 6 years to 17 years, and as adjunctive therapy to PSTs for the treatment of ADHD in children and adolescents aged 6 years to 17 years, with a sub-optimal response to PSTs. \u2022 In 2015, the Canadian Drug Expert Committee recommended that GXR not be listed for the treatment of ADHD in children aged 6 years to 12 years as monotherapy (due to insufficient evidence to assess the comparative clinical benefit of GXR as monotherapy relative to other less costly treatments) or as adjunctive therapy (due to limited evidence from 1 randomized controlled trial [RCT] of only 9 weeks\u2019 duration). \u2022 At the request of the participating public drug programs in 2025, Canada\u2019s Drug Agency (CDA-AMC) reviewed GXR used as monotherapy and as an adjunctive therapy to a PST to inform a recommendation on whether it should be reimbursed for the treatment of ADHD in children and adolescents aged 6 years to 17 years.<h4>How did cda-amc evaluate gxr?</h4>\u2022 CDA-AMC reviewed the clinical evidence on the beneficial and harmful effects of GXR and compared its costs versus those of other treatments used in Canada for ADHD in children and adolescents aged 6 years to 17 years. PSTs (e.g., amphetamine and methylphenidate, both short- and long-acting formulations) and other nonstimulants (e.g., atomoxetine and clonidine) were considered relevant treatments to compare with GXR. \u2022 The clinical evidence was identified through systematic searches for available studies. The objectives of this review are 2-fold: to review the benefits and harms of GXR as monotherapy and to review the benefits and harms of GXR as adjunctive therapy to a PST. For the use of GXR as monotherapy, evidence from indirect treatment comparisons was sought due to limited direct evidence for GXR and active comparators found during evidence scoping. \u2022 The review received no inputs from patient groups, clinician groups, or industry. \u2022 Two clinical experts in the diagnosis and management of children and adolescents with ADHD were consulted as part of the review process, with representation from Ontario and British Columbia.<h4>What were the findings?</h4>CDA-AMC reviewed the following clinical evidence: \u2022 1 systematic review with network meta-analysis (NMA) comparing monotherapy oral medications (i.e., amphetamines, methylphenidate, modafinil, atomoxetine, clonidine, guanfacine, or bupropion) and placebo for the treatment of ADHD in children and adolescents. \u2022 3 long-term extension (LTE) studies of GXR as monotherapy (1 of which also included evidence for GXR as an adjunctive therapy to a PST) for the treatment of ADHD in children and adolescents. \u2022 2 RCTs with 4 reports comparing GXR versus placebo as adjunctive therapy to a PST for the treatment of ADHD in children and adolescents.<h4>Clinical evidence of monotherapy</h4>\u2022 NMA results showed: o.. GXR may result in decreases in ADHD core symptoms and an increase in clinical global functioning rated by clinicians compared with placebo. o.. Compared with amphetamines, GXR may result in an increase (i.e., less improvement) in ADHD core symptoms and a decrease (i.e., less improvement) in clinical global functioning as rated by clinicians. o.. Compared with atomoxetine or methylphenidate, GXR may result in little to no difference in ADHD core symptoms and an uncertainty in clinical global functioning as rated by clinicians. o.. The effects of GXR compared with clonidine on the improvement of ADHD core symptoms and clinical global functioning are uncertain. o.. GXR may result in an increase in study discontinuations due to adverse events (AEs) compared with placebo, but the effect of GXR compared with active comparators is very uncertain. o.. GXR may result in smaller decreases in weight compared with amphetamines, atomoxetine, or methylphenidate. The effect of GXR on weight compared with placebo or clonidine is uncertain. o.. GXR may result in a decrease in systolic blood pressure, but little to no difference in diastolic blood pressure compared with placebo. o.. In the absence of evidence, the effects of GXR compared with placebo or active comparators for other AEs, illness severity, or HRQoL are not known. o.. Limitations of the NMA included the potential for intransitivity (differences in patient and study characteristics across comparisons in the network), which would bias the effect estimates, affect study-level risks of bias, and result in imprecision in the effect estimates. Evidence of all comparisons to active treatments were of low or very low certainty. The NMA also risks being out of date, resulting in risk of bias due to missing evidence in the synthesis. \u2022 LTE studies showed: o.. Patients treated with GXR in 3 LTE studies for 24 months experienced clinically important decreases in ADHD core symptoms (3 studies), decreases in illness severity (2 studies), and clinically important improvements in psychosocial aspects of HRQoL (2 studies). o.. Somnolence, headache, fatigue, upper respiratory tract infection, sedation, dizziness, abdominal pain, insomnia, and irritability are common AEs associated with GXR use. o.. Although changes in vital signs, blood pressure, and cardiovascular events were not commonly observed in long-term treatment with GXR, these potential harms should be closely monitored as per suggestion of the clinical experts. o.. Due to the single-arm design of the LTE studies, it is uncertain to what extent the observed effects can be attributed to GXR. Other limitations include risk of bias in the measurement of the outcomes and due to missing outcomes data. The studies could not inform about the long-term effects of GXR relative to active comparators used in clinical practice.<h4>Economic evidence of monotherapy</h4>\u2022 Reimbursing GXR as monotherapy for the treatment of ADHD in children and adolescents aged 6 years to 17 years is expected to increase costs to public drug programs.<h4>Clinical evidence of adjunctive therapy</h4>\u2022 Evidence from 2 RCTs comparing GXR + PST therapy versus placebo plus PST therapy suggests GXR + PST treatment may result in greater improvement in ADHD core symptoms in children and adolescents. \u2022 GXR adjunctive therapy may also improve executive function (1 RCT), severity of illness (2 RCTs), clinical global functioning (2 RCTs), overall psychopathology (1 RCT), disease response and remission (1 RCT), and ADHD symptomatology and functioning (1 RCT) in children and adolescents. \u2022 Common AEs such as headache, abdominal pain, fatigue, somnolence, dizziness, insomnia, and affective lability occurred more frequently in the GXR + PST group than in the placebo plus PST group. \u2022 The findings were limited by short-term follow-up and various sources of bias. Long-term follow-up of a single-arm adjunctive therapy in a small subgroup suggested that the long-term safety and efficacy of GXR adjunctive therapy were consistent with the findings from short-term blinded studies. Due to the single-arm design of the LTE study, it is uncertain to what extent the observed effects can be attributed to GXR\u00a0+\u00a0PST therapy.<h4>Economic evidence of adjunctive therapy</h4>\u2022 Reimbursing GXR as adjunctive therapy to a PST for the treatment of ADHD in children and adolescents aged 6 years to 17 years is expected to increase costs to public drug programs.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubTypeList": {
+        "pubType": [
+          "Review"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "Canadian Agency for Drugs and Technologies in Health, Ottawa (ON)",
+        "yearOfPublication": 2026,
+        "seriesName": "CADTH Reimbursement Reviews and Recommendations",
+        "comprisingTitle": "Guanfacine Hydrochloride Extended Release: Therapeutic area: Attention-deficit/hyperactivity disorder: Reimbursement Review",
+        "extraInformation": "Report No.: SX0755r"
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "NCBI_Bookshelf",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK622175"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "N",
+      "hasBook": "Y",
+      "bookid": "NBK622175",
+      "hasSuppl": "N",
+      "citedByCount": 0,
+      "hasData": "N",
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "N",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-02-01",
+      "firstIndexDate": "2026-05-15",
+      "firstPublicationDate": "2026-02-01"
+    },
+    {
+      "id": "42306030",
+      "source": "MED",
+      "pmid": "42306030",
+      "pmcid": "PMC13266298",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC13266298"
+        ]
+      },
+      "doi": "10.7759/cureus.110860",
+      "title": "Maintained Symptom Control Following a Shortage-Driven Switch to Immediate-Release Dextroamphetamine: A Case Report.",
+      "authorString": "Singer D, Kothari PM.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Singer D",
+            "firstName": "Daniel",
+            "lastName": "Singer",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "College of Liberal Arts and Sciences, University of Florida, Gainesville, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kothari PM",
+            "firstName": "Priti M",
+            "lastName": "Kothari",
+            "initials": "PM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Psychiatry, Priti Kothari MD PA, Boca Raton, USA."
+                },
+                {
+                  "affiliation": "College of Nursing, University of Florida, Gainesville, USA."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "journalInfo": {
+        "issue": "6",
+        "volume": "18",
+        "journalIssueId": 4206252,
+        "dateOfPublication": "2026 Jun",
+        "monthOfPublication": 6,
+        "yearOfPublication": 2026,
+        "printPublicationDate": "2026-06-01",
+        "journal": {
+          "title": "Cureus",
+          "medlineAbbreviation": "Cureus",
+          "issn": "2168-8184",
+          "nlmid": "101596737",
+          "isoabbreviation": "Cureus",
+          "essn": "2168-8184"
+        }
+      },
+      "pubYear": "2026",
+      "pageInfo": "e110860",
+      "abstractText": "ADHD is a neurodevelopmental condition marked by persistent symptoms of inattention, hyperactivity, and impulsivity. The gold standard pharmacotherapy for the treatment of ADHD is CNS psychostimulants. However, a shortage of CNS psychostimulants used for the treatment of ADHD has persisted since 2022, and many patients have been forced to switch medications or have been unable to obtain medication at all, raising concerns about symptom management and quality of life. This case report describes a 30-year-old female who was unable to obtain lisdexamfetamine amid the shortage, found mixed amphetamine salts ineffective, but found success with immediate-release dextroamphetamine sulfate, a less frequently used amphetamine. This report serves to demonstrate that immediate-release dextroamphetamine sulfate may be a viable alternative stimulant to address the shortage; however, more research must be conducted to confirm these findings.",
+      "affiliation": "College of Liberal Arts and Sciences, University of Florida, Gainesville, USA.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic-eCollection",
+      "pubTypeList": {
+        "pubType": [
+          "Journal Article",
+          "Case Reports",
+          "case-report"
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "amphetamine",
+          "Dextroamphetamine",
+          "Adult Attention-deficit/hyperactivity Disorder (Adhd)",
+          "Stimulant Shortage",
+          "Cns Psychostimulants"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.7759/cureus.110860"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13266298"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13266298?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "citedByCount": 0,
+      "hasData": "N",
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "N",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2026-06-17",
+      "dateOfCreation": "2026-06-17",
+      "firstIndexDate": "2026-06-18",
+      "fullTextReceivedDate": "2026-06-26",
+      "dateOfRevision": "2026-06-17",
+      "electronicPublicationDate": "2026-06-14",
+      "firstPublicationDate": "2026-06-14"
+    },
+    {
+      "id": "42137660",
+      "source": "MED",
+      "pmid": "42137660",
+      "pmcid": "PMC13170398",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC13170398"
+        ]
+      },
+      "doi": "10.7759/cureus.106949",
+      "title": "A Case of Manic-Like Symptoms and Confusion After Supplement Ingestion.",
+      "authorString": "Shah P, Ehrman S, Reed R.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Shah P",
+            "firstName": "Payas",
+            "lastName": "Shah",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Psychiatry, Reading Hospital Tower Health, West Reading, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ehrman S",
+            "firstName": "Sydney",
+            "lastName": "Ehrman",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Psychiatry, Reading Hospital Tower Health, West Reading, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Reed R",
+            "firstName": "Regina",
+            "lastName": "Reed",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Psychiatry, Reading Hospital Tower Health, West Reading, USA."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "journalInfo": {
+        "issue": "4",
+        "volume": "18",
+        "journalIssueId": 4172604,
+        "dateOfPublication": "2026 Apr",
+        "monthOfPublication": 4,
+        "yearOfPublication": 2026,
+        "printPublicationDate": "2026-04-01",
+        "journal": {
+          "title": "Cureus",
+          "medlineAbbreviation": "Cureus",
+          "issn": "2168-8184",
+          "nlmid": "101596737",
+          "isoabbreviation": "Cureus",
+          "essn": "2168-8184"
+        }
+      },
+      "pubYear": "2026",
+      "pageInfo": "e106949",
+      "abstractText": "A variety of etiologies can lead a patient to present with symptoms that appear manic. A wide differential should be considered, including delirium, which may in turn be caused by multiple etiologies. Substance ingestion, specifically of dietary supplements, is one potential trigger that is not always considered. A 40-year-old male patient with a history of long-standing attention-deficit/hyperactivity disorder (ADHD), anxiety, and depression presented with anxiety, restlessness, memory gaps, nausea, low appetite, and insomnia. Prior to admission, the patient started taking an herbal supplement for 15 days and stopped taking lisdexamfetamine for 1.5 weeks. Upon initial presentation, the patient was hypertensive and tachycardic. The physical exam was significant for bilateral conjunctival injection and hand tremors. He was disoriented to time and had tangential, pressured speech. A comprehensive medical work-up was largely unremarkable. The urine drug screen was positive for amphetamines and marijuana. The Psychiatry Consultation and Liaison Service evaluated this patient and diagnosed him with delirium, possibly secondary to the supplement side effects. The supplement was discontinued, and the patient's symptoms resolved within 24 hours. While many diagnoses were considered for this patient, delirium, possibly triggered by starting a new herbal supplement, was determined to be the most likely etiology. Many supplements have not been well-studied and are inadequately regulated. This case highlights the potential for clinically significant adverse effects associated with supplement use and emphasizes the need for further research into their safety profiles, pharmacokinetics, and neuropsychiatric consequences to improve patient care and education.",
+      "affiliation": "Psychiatry, Reading Hospital Tower Health, West Reading, USA.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic-eCollection",
+      "pubTypeList": {
+        "pubType": [
+          "Journal Article",
+          "Case Reports",
+          "case-report"
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Pharmacology",
+          "Safety",
+          "Pharmacokinetics",
+          "Supplement",
+          "Cognitive function",
+          "efficacy",
+          "Manic Symptoms",
+          "Herb-drug Interactions"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.7759/cureus.106949"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13170398"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13170398?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "citedByCount": 0,
+      "hasData": "N",
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "N",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2026-05-15",
+      "dateOfCreation": "2026-05-15",
+      "firstIndexDate": "2026-05-16",
+      "fullTextReceivedDate": "2026-05-20",
+      "dateOfRevision": "2026-05-15",
+      "electronicPublicationDate": "2026-04-13",
+      "firstPublicationDate": "2026-04-13"
+    },
+    {
+      "id": "41879751",
+      "source": "MED",
+      "pmid": "41879751",
+      "pmcid": "PMC13019342",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC13019342"
+        ]
+      },
+      "doi": "10.1001/jamapsychiatry.2026.0152",
+      "title": "Methylphenidate Treatment and Risk of Psychotic Disorder.",
+      "authorString": "Healy C, O'Hare K, L\u00e5ng U, Mets\u00e4l\u00e4 J, Pulakka A, McGrath J, Migone M, Keating D, Romaniuk L, Gyllenberg D, Kajantie E, Perrett G, Hill J, Elwert F, Kelleher I.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Healy C",
+            "firstName": "Colm",
+            "lastName": "Healy",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Neuroscience and Cardiovascular Research, University of Edinburgh, Edinburgh, United Kingdom."
+                },
+                {
+                  "affiliation": "School of Medicine, University College Dublin, Dublin, Ireland."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "O'Hare K",
+            "firstName": "Kirstie",
+            "lastName": "O'Hare",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1166-9792"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Neuroscience and Cardiovascular Research, University of Edinburgh, Edinburgh, United Kingdom."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "L\u00e5ng U",
+            "firstName": "Ulla",
+            "lastName": "L\u00e5ng",
+            "initials": "U",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Neuroscience and Cardiovascular Research, University of Edinburgh, Edinburgh, United Kingdom."
+                },
+                {
+                  "affiliation": "Faculty of Medicine, University of Oulu, Oulu, Finland."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mets\u00e4l\u00e4 J",
+            "firstName": "Johanna",
+            "lastName": "Mets\u00e4l\u00e4",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Clinical Medicine Research Unit, University of Oulu and Oulu University Hospital, Oulu, Finland."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pulakka A",
+            "firstName": "Anna",
+            "lastName": "Pulakka",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Research Unit of Population Health, University of Oulu, Oulu, Finland."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "McGrath J",
+            "firstName": "Jane",
+            "lastName": "McGrath",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Psychiatry, School of Medicine, Trinity College Dublin, Dublin, Ireland."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Migone M",
+            "firstName": "Maria",
+            "lastName": "Migone",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "St John of God Community Services CAMHS, Rathgar, Dublin, Ireland."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Keating D",
+            "firstName": "Dolores",
+            "lastName": "Keating",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "St John of God Hospitaller Services Group, Stillorgan, Dublin, Ireland."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Romaniuk L",
+            "firstName": "Liana",
+            "lastName": "Romaniuk",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Neuroscience and Cardiovascular Research, University of Edinburgh, Edinburgh, United Kingdom."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gyllenberg D",
+            "firstName": "David",
+            "lastName": "Gyllenberg",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Adolescent Psychiatry, Helsinki University Hospital, Helsinki, Finland."
+                },
+                {
+                  "affiliation": "Research Centre for Child Psychiatry and INVEST-flagship, University of Turku, Turku, Finland."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kajantie E",
+            "firstName": "Eero",
+            "lastName": "Kajantie",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Clinical Medicine Research Unit, University of Oulu and Oulu University Hospital, Oulu, Finland."
+                },
+                {
+                  "affiliation": "Population Health Knowledge Base Team, Finnish Institute for Health and Welfare, Helsinki, Finland."
+                },
+                {
+                  "affiliation": "Department of Clinical and Molecular Medicine, Norwegian University of Science and Technology, Trondheim, Norway."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Perrett G",
+            "firstName": "George",
+            "lastName": "Perrett",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Applied Statistics, Social Science, and the Humanities, New York University, New York."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hill J",
+            "firstName": "Jennifer",
+            "lastName": "Hill",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Applied Statistics, Social Science, and the Humanities, New York University, New York."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Elwert F",
+            "firstName": "Felix",
+            "lastName": "Elwert",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Sociology, University of Wisconsin-Madison, Madison."
+                },
+                {
+                  "affiliation": "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kelleher I",
+            "firstName": "Ian",
+            "lastName": "Kelleher",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Neuroscience and Cardiovascular Research, University of Edinburgh, Edinburgh, United Kingdom."
+                },
+                {
+                  "affiliation": "School of Medicine, University College Dublin, Dublin, Ireland."
+                },
+                {
+                  "affiliation": "Faculty of Medicine, University of Oulu, Oulu, Finland."
+                },
+                {
+                  "affiliation": "St John of God Hospitaller Services Group, Stillorgan, Dublin, Ireland."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1166-9792"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "journalInfo": {
+        "issue": "6",
+        "volume": "83",
+        "journalIssueId": 4206497,
+        "dateOfPublication": "2026 Jun",
+        "monthOfPublication": 6,
+        "yearOfPublication": 2026,
+        "printPublicationDate": "2026-06-01",
+        "journal": {
+          "title": "JAMA psychiatry",
+          "medlineAbbreviation": "JAMA Psychiatry",
+          "issn": "2168-622X",
+          "nlmid": "101589550",
+          "isoabbreviation": "JAMA Psychiatry",
+          "essn": "2168-6238"
+        }
+      },
+      "pubYear": "2026",
+      "pageInfo": "611-619",
+      "abstractText": "<h4>Importance</h4>Methylphenidate is the leading pharmacological treatment for attention-deficit/hyperactivity disorder (ADHD) in childhood and adolescence. Individuals with ADHD have a higher risk of psychosis, but the long-term relationship between methylphenidate and risk of developing psychotic disorders is unknown.<h4>Objective</h4>To estimate the relationship between methylphenidate treatment and the risk of nonaffective psychosis in children and adolescents diagnosed with ADHD.<h4>Design, setting, and participants</h4>This cohort study included instrumental variable analysis of data linkage from multiple national Finnish registries for all individuals born from 1987 to 1997 (n\u2009=\u2009697\u202f289). These registries were used to identify childhood and adolescent ADHD diagnoses (age <18 years) from 2003 onwards. Data were analyzed from June 2023 to December 2025.<h4>Exposure</h4>Cumulative amount of treatment with methylphenidate used in 4 intervention windows: within 1, 2, 3, and 4 years after ADHD diagnosis. Hospital district prescribing propensities (average prescribing within each hospital district, within each intervention window) were used as instruments.<h4>Main outcome and measures</h4>Diagnosis of nonaffective psychotic disorder (by code from International Statistical Classification of Diseases and Related Health Problems, Tenth Revision) by the end of follow-up (December 31, 2016). Instrumental variable analyses were conducted using 2-stage least squares modeling and the Anderson-Rubin test. Risk differences (RDs) were estimated for each intervention window.<h4>Results</h4>Among 3956 individuals diagnosed with ADHD (3181 male [80.4%], 775 female [19.6%]; median [IQR] age, 14.16 [11.78-15.93] years), 2728 (69.0%) received methylphenidate at least once. A total of 222 individuals (5.7%) were diagnosed with nonaffective psychosis by mean (SD) age 22.16 (2.39) years (range, 19.00-29.81 years). There was substantial variation in hospital district prescribing propensity (for example, first-year range, 0.07 to 0.30). Instrumental variable analysis indicated that sustained treatment with methylphenidate (30 mg/d) was not associated with the risk of nonaffective psychosis in the overall ADHD sample (1-year RD, -0.14; 95% CI, -0.85 to 0.42; and 4-year RD, -0.15; 95% CI, -0.49 to 0.11). Secondary analyses indicated a reduced risk of nonaffective psychosis among individuals diagnosed in childhood (age <13 years: 3-year RD, -0.24; 95% CI, -0.45 to -0.03; P\u2009=\u2009.03; 4-year RD, -0.21; 95% CI, -0.48 to -0.07; P\u2009=\u2009.02). An insufficiently strong instrument precluded the same secondary analyses in those diagnosed in adolescence.<h4>Conclusion and relevance</h4>This study of national Finnish registry data for individuals with ADHD found no overall relationship between sustained treatment with methylphenidate risk of nonaffective psychosis; in secondary analyses, a potentially protective effect of methylphenidate treatment against later psychosis in children diagnosed with ADHD was found. Further research is needed to evaluate potential effects of treatment in individuals diagnosed in adolescence and adulthood.",
+      "affiliation": "Institute for Neuroscience and Cardiovascular Research, University of Edinburgh, Edinburgh, United Kingdom.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Methylphenidate",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "AE",
+                  "qualifierName": "adverse effects",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "TU",
+                  "qualifierName": "therapeutic use",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Central Nervous System Stimulants",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "AE",
+                  "qualifierName": "adverse effects",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "TU",
+                  "qualifierName": "therapeutic use",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Registries"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cohort Studies"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Attention Deficit Disorder with Hyperactivity",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "DT",
+                  "qualifierName": "drug therapy",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Psychotic Disorders",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ET",
+                  "qualifierName": "etiology",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "EP",
+                  "qualifierName": "epidemiology",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adolescent"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Child"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Finland",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "EP",
+                  "qualifierName": "epidemiology",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Female"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Male"
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Central Nervous System Stimulants",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Methylphenidate",
+            "registryNumber": "207ZZ9QZ49"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1001/jamapsychiatry.2026.0152"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13019342"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 0,
+      "hasData": "Y",
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2026-06-06",
+      "dateOfCreation": "2026-03-25",
+      "firstIndexDate": "2026-03-25",
+      "fullTextReceivedDate": "2026-03-28",
+      "dateOfRevision": "2026-06-06",
+      "firstPublicationDate": "2026-06-01"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "project_name": "REPLACE_WITH_PROJECT_NAME",
+  "created_at": "REPLACE_WITH_TIMESTAMP",
+  "files": {},
+  "completed_steps": [],
+  "status": "initialized",
+  "configuration": {
+    "paper_count": 20,
+    "selected_papers": 5,
+    "requires_chemical_data": false,
+    "requires_literature_data": true
+  }
+}

@@ -105,3 +105,182 @@ All studies agree that amphetamines are effective in managing ADHD symptoms. The
 
 ## Bottom-Line Interpretation
 Amphetamines are highly effective in managing ADHD symptoms, as evidenced by their widespread use and efficacy in reducing core symptoms. However, the recent medication shortages highlight the vulnerability of the pharmaceutical supply chain to international disruptions. Addressing these vulnerabilities is crucial to ensure consistent access to effective treatments. Additionally, the potential negative effects of stimulants on bone health warrant further investigation, particularly in long-term users. The global variations in stimulant consumption suggest differences in clinical practice that may benefit from standardization. Finally, alternative medications like immediate-release dextroamphetamine sulfate can be viable options during shortages, but more research is needed to confirm their long-term effectiveness and safety.
+
+## Integration of Chemical Data with Literature
+
+This skill can synthesize findings from both literature summaries and chemical data summaries to provide comprehensive insights.
+
+### Inputs for Combined Synthesis
+- Structured summaries of research papers
+- Structured chemical data summaries
+- Both types of inputs can be provided together
+
+### When to Use for Combined Synthesis
+- The user has gathered both chemical compound data and literature about the compound
+- The task is to understand how chemical properties relate to biological effects and clinical applications
+- Creating comprehensive reports that integrate pharmacological data with research findings
+
+**Not for:**
+- Synthesis of only chemical data (use chemical summaries alone)
+- Synthesis of only literature (use literature synthesis alone)
+
+### Workflow for Combined Synthesis
+1. Gather chemical data summaries and literature summaries
+2. Analyze relationships between:
+   - Chemical properties and biological targets
+   - Bioactivity data and pharmacological effects
+   - Molecular mechanisms and clinical outcomes
+   - Structure-activity relationships
+3. Identify patterns across both data types
+4. Create a synthesis that explains how chemical properties contribute to observed biological effects
+5. Highlight connections between molecular data and research findings
+
+### Synthesis Principles for Combined Data
+- **Correlate chemical properties with biological effects:** Explain how molecular characteristics relate to observed pharmacological actions
+- **Bridge molecular mechanisms and clinical applications:** Show how drug-target interactions lead to therapeutic effects
+- **Highlight structure-activity relationships:** Discuss how chemical structure influences biological activity
+- **Integrate safety considerations:** Combine chemical safety data with literature on adverse effects
+- **Provide comprehensive context:** Explain the full picture from molecule to clinical application
+
+### Output Format for Combined Synthesis
+
+```markdown
+# Synthesis: [Research Topic] - Chemical and Biological Integration
+
+## Chemical Profile Overview
+[Summary of key chemical properties and bioactivity data]
+
+## Biological Effects and Mechanisms
+[Synthesis of how chemical properties relate to biological effects]
+
+## Structure-Activity Relationships
+[Analysis of how chemical structure influences biological activity]
+
+## Clinical Applications and Therapeutic Uses
+[Integration of chemical data with clinical research findings]
+
+## Safety and Pharmacological Considerations
+[Combined analysis of chemical safety data and literature on adverse effects]
+
+## Key Findings Integration
+### Chemical Data Findings
+- [Key chemical property 1]
+- [Key bioactivity finding 1]
+
+### Literature Findings
+- [Key research finding 1]
+- [Key research finding 2]
+
+### Integrated Understanding
+[Explanation of how chemical and biological data together provide comprehensive understanding]
+
+## Gaps and Open Questions
+### Chemical Data Gaps
+- [What chemical information is missing?]
+
+### Literature Gaps
+- [What research questions remain unanswered?]
+
+### Integrated Research Needs
+- [What combined chemical + biological research is needed?]
+
+## Bottom-line Interpretation
+[Comprehensive interpretation integrating both chemical and biological evidence]
+```
+
+### Example of Combined Synthesis
+
+# Synthesis: Amphetamine Mechanism of Action and ADHD Treatment
+
+## Chemical Profile Overview
+Amphetamine (C9H13N) is a central nervous system stimulant with a molecular weight of 135.21 g/mol. It acts as a norepinephrine-dopamine reuptake inhibitor with IC50 values of 0.047 μM for dopamine reuptake inhibition and 0.65 μM for norepinephrine reuptake inhibition.
+
+## Biological Effects and Mechanisms
+The chemical structure of amphetamine, with its phenyl ring and amine group, allows it to cross the blood-brain barrier and interact with monoamine transporters. The literature shows that this mechanism increases synaptic dopamine and norepinephrine levels, which modulate attention and impulse control - key deficits in ADHD.
+
+## Structure-Activity Relationships
+The specific stereochemistry of amphetamine (dextroamphetamine is more potent than levoamphetamine) correlates with its ability to increase dopamine release. The literature confirms that dextroamphetamine has greater clinical efficacy for ADHD symptoms, demonstrating the structure-activity relationship.
+
+## Clinical Applications and Therapeutic Uses
+Chemical data shows amphetamine's high affinity for dopamine transporters, while literature demonstrates this leads to improved focus and reduced hyperactivity in ADHD patients. The combination explains why amphetamine is effective for ADHD treatment.
+
+## Safety and Pharmacological Considerations
+While chemical data shows amphetamine's pharmacological profile, literature research highlights potential side effects like increased heart rate and blood pressure, as well as risks of dependence and abuse.
+
+## Key Findings Integration
+### Chemical Data Findings
+- High affinity for dopamine and norepinephrine transporters
+- Specific stereochemical requirements for activity
+- Blood-brain barrier penetration capabilities
+
+### Literature Findings
+- Increased synaptic dopamine improves ADHD symptoms
+- Dextroamphetamine more effective than levoamphetamine
+- Clinical efficacy confirmed in multiple studies
+
+### Integrated Understanding
+The chemical properties of amphetamine explain its pharmacological mechanism, which in turn accounts for its clinical effectiveness in treating ADHD. The molecular structure enables the biological effects that produce therapeutic benefits.
+
+## Bottom-line Interpretation
+Amphetamine's effectiveness in treating ADHD stems from its chemical structure enabling dopamine and norepinephrine modulation in the brain. This integrated understanding of chemical properties and biological effects provides a comprehensive explanation for its therapeutic use.
+
+## Specific Example: Amphetamine and ADHD
+
+**User Question:** "Why are amphetamines used to treat ADHD?"
+
+**Inputs:**
+1. Chemical data summary of amphetamine (from ChEMBL or similar)
+2. Literature summaries of 5 key research papers on amphetamine and ADHD
+
+**Synthesis Process:**
+
+1. **Extract chemical properties:**
+   - Molecular structure and pharmacokinetics
+   - Dopamine/norepinephrine reuptake inhibition data
+   - Blood-brain barrier penetration capabilities
+
+2. **Extract literature findings:**
+   - ADHD pathophysiology (dopamine deficiency)
+   - Clinical trial results showing efficacy
+   - Mechanism of action studies
+   - Safety and side effect profiles
+
+3. **Integrate findings:**
+   - Explain how chemical structure enables dopamine modulation
+   - Show how pharmacological effects address ADHD symptoms
+   - Correlate bioactivity data with clinical outcomes
+   - Analyze structure-activity relationships
+
+4. **Create comprehensive synthesis:**
+   - Chemical profile section
+   - Biological mechanism section
+   - Clinical application section
+   - Safety considerations section
+   - Integrated conclusion
+
+**Output Structure:**
+
+```markdown
+# Why Are Amphetamines Used to Treat ADHD?
+
+## Chemical Profile of Amphetamine
+[Summarize key chemical properties from chemical data]
+
+## ADHD Pathophysiology
+[Summarize literature on ADHD brain chemistry]
+
+## Mechanism of Action
+[Integrate chemical data with literature on how amphetamine works]
+
+## Clinical Efficacy
+[Summarize literature on treatment effectiveness]
+
+## Safety and Considerations
+[Combine chemical safety data with literature on side effects]
+
+## Integrated Explanation
+[Comprehensive answer showing how chemical properties lead to therapeutic effects]
+
+## References
+[Cite both chemical data sources and literature papers]
+```

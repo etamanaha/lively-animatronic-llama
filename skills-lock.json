@@ -43,12 +43,6 @@
       "skillPath": "skills/scientific-db-pubmed-database/SKILL.md",
       "computedHash": "97d4bfb3ff3f1661bd9775e8b62efea1fb470bff3ae294c1bebf42e288785065"
     },
-    "synthesize-research": {
-      "source": "anthropics/knowledge-work-plugins",
-      "sourceType": "github",
-      "skillPath": "product-management/skills/synthesize-research/SKILL.md",
-      "computedHash": "7921117657f8fc73856c5e518c464463cb94b86581d33b528a3f6be262fa42dc"
-    },
     "summarize": {
       "source": "local",
       "sourceType": "local",
@@ -60,6 +54,12 @@
       "sourceType": "local",
       "skillPath": ".opencode/skills/synthesis/SKILL.md",
       "computedHash": "1d473241df332bd6ca0816b68511234e1cf0408979644b702f8b2b077a40e0b9"
+    },
+    "synthesize-research": {
+      "source": "anthropics/knowledge-work-plugins",
+      "sourceType": "github",
+      "skillPath": "product-management/skills/synthesize-research/SKILL.md",
+      "computedHash": "7921117657f8fc73856c5e518c464463cb94b86581d33b528a3f6be262fa42dc"
     }
   }
 }

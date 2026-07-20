@@ -7,6 +7,12 @@
       "skillPath": "skills/chembl_database/SKILL.md",
       "computedHash": "03c09a44af402741b381b3d449c6d499b50d88648df44d69bef07cb2e22f1068"
     },
+    "deepchem": {
+      "source": "k-dense-ai/claude-scientific-skills",
+      "sourceType": "github",
+      "skillPath": "skills/deepchem/SKILL.md",
+      "computedHash": "7659d1b4ced260af1eb5c8322cbe39b5b9f5ef4c80d89578b847f8fe0b7fe149"
+    },
     "find-skills": {
       "source": "vercel-labs/skills",
       "sourceType": "github",

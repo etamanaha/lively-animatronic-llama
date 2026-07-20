@@ -6,6 +6,7 @@ permission:
         chembl-database: allow
         pubchem-database: allow
         pubmed-database: deny
+        deepchem: deny
 mode: all
 ---
 

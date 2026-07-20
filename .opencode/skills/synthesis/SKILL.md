@@ -282,5 +282,5 @@ Amphetamine's effectiveness in treating ADHD stems from its chemical structure e
 [Comprehensive answer showing how chemical properties lead to therapeutic effects]
 
 ## References
-[Cite both chemical data sources and literature papers]
+[Cite both chemical data sources and literature papers in ACS style]
 ```

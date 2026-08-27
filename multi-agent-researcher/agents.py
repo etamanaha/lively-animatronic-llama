@@ -16,7 +16,6 @@ from prompts import (
 
 # Load environment variables
 load_dotenv()
-import getpass
 import os
 
 # --- 1. Setup LLM and Tools ---
@@ -173,8 +172,9 @@ def get_europepmc_fulltext(pmcid: str, fmt: str = "text") -> Dict[str, Any]:
             "has_fulltext": False
         }
 
+"""
 def select_top_articles(results: list, query: str, num_top: int = 5) -> list:
-    """
+
     Select top N articles from search results using LLM-assisted ranking.
 
     Args:
@@ -184,12 +184,12 @@ def select_top_articles(results: list, query: str, num_top: int = 5) -> list:
 
     Returns:
         List of top articles with ranking scores
-    """
+
     if len(results) <= num_top:
         return results
 
     # Create ranking prompt for LLM
-    ranking_prompt = f"""
+    ranking_prompt = 
     You are an expert research assistant. Please rank these {len(results)} scientific articles
     based on their relevance to the query: "{query}".
 
@@ -209,7 +209,7 @@ def select_top_articles(results: list, query: str, num_top: int = 5) -> list:
     {json.dumps(results, indent=2)}
 
     Return only the JSON array, no other text.
-    """
+
 
     try:
         response = _call_llm(llm, ranking_prompt)
@@ -242,14 +242,23 @@ def select_top_articles(results: list, query: str, num_top: int = 5) -> list:
             key=lambda x: x.get('pubYear', 0),
             reverse=True
         )[:num_top]
-
+"""
     
 # --- 2. Create Agent Nodes ---
 
 SELECTION_PROMPT = """
 You are an expert research assistant. Below is a list of scientific articles from Europe PMC.
 
-You task: Rank these articles from 1 (best) to {total} (worst) based on:
+Research query: "{query}"
+Numder of articles: {total}
+
+Your task is tank these articles from 1 (best) to {total} (worst), prioritizing relevance to the research query over general subject-matter similarity.
+
+## How to assess relevance
+
+1. Decompose the research query into its key concepts:
+    - Population or biolo
+
 1. Relevance to the research query: "{query}"
 2. Publication date (more recent is generally better, but foundational work matters)
 3. Citation count (higher citations indicatw impact)
@@ -395,9 +404,7 @@ def extract_structured_citations(results):
             "doi": result.get('doi', 'N/A'),
             "url": f"https://europepmc.org/article/MED/{result.get('id', '')}" if result.get('id') else "N/A",
             "access_status": "open_access",  # EuropePMC is open access
-            "allowed_source": True,
             "retrieved_on": datetime.now().strftime("%Y-%m-%d"),
-            "pages_or_sections": "Abstract",  # Could extract section if available
             "notes": "Extracted from Europe PMC database"
         }
         citations.append(citation)
@@ -409,7 +416,6 @@ def format_citations_yaml(citations: list[dict]) -> str:
 
     for citation in citations:
         # Handle authors - ensure they're always a list of strings
-        print("yaml function")
         raw_authors = citation.get("authors", [])
         authors = []
         for author in raw_authors:
@@ -438,12 +444,10 @@ def format_citations_yaml(citations: list[dict]) -> str:
             "doi": citation.get("doi", "N/A"),
             "url": citation.get("url", "N/A"),
             "access_status": citation.get("access_status", "open_access"),
-            "allowed_source": bool(citation.get("allowed_source", True)),
             "retrieved_on": citation.get(
                 "retrieved_on",
                 datetime.now().strftime("%Y-%m-%d"),
             ),
-            "pages_or_sections": citation.get("pages_or_sections", "Abstract"),
             "notes": citation.get("notes", "Extracted from Europe PMC database"),
         }
 
@@ -461,30 +465,37 @@ def format_as_markdown(content: str, citations: list[dict], main_task: str = "To
     """Format research output as Markdown with proper structure."""
     if not content:
         return ""
-
     # Check if content is already a complete markdown document
     if content.strip().startswith("# ") or content.strip().startswith("## "):
-        # It's already markdown, just add references section
+        print("--- IT'S ALREADY PROEPRLY FORMATTED --- ")
+        print("check for yaml")
+        # It's already markdown, just check for yaml
         markdown_lines = content.split('\n')
-        # Find where to insert references (after conclusion or at end)
+        # Find where # references is
+        end_line = 0
         ref_insert_pos = len(markdown_lines)
         for i, line in enumerate(markdown_lines):
-            if line.strip().lower() in ['## conclusion', '## references', '## acknowledgments']:
+            if i > end_line:
+                end_line = i
+            if line.strip().lower() in ['## references']:
                 ref_insert_pos = i + 1
-                break
 
         # Insert references section
         markdown_lines.insert(ref_insert_pos, "")
-        markdown_lines.insert(ref_insert_pos, "## References")
         if citations:
+            print("if citations")
             markdown_lines.insert(ref_insert_pos + 1, "```yaml")
-            markdown_lines.insert(ref_insert_pos + 2, format_citations_yaml(citations))
-            markdown_lines.insert(ref_insert_pos + 3, "```")
+            #markdown_lines.insert(ref_insert_pos + 2, format_citations_yaml(citations))
+            markdown_lines.insert(end_line + 2, "```")
         else:
+            print("else")
             markdown_lines.insert(ref_insert_pos + 1, "- No citations available")
-
+        print("markdown lines:", markdown_lines)
+        
         return "\n".join(markdown_lines)
+    
     else:
+        print(" --- PROCESS UNSTRUCTURED TEXT ---")
         # Process as unstructured text
         lines = content.split('\n')
         markdown_lines = []
@@ -528,7 +539,7 @@ def format_as_markdown(content: str, citations: list[dict], main_task: str = "To
             markdown_lines.append("```")
         else:
             markdown_lines.append("- No citations available")
-
+        print("markdown lines:", markdown_lines)
         return "\n".join(markdown_lines)
 
 def validate_citations(citations):
@@ -537,7 +548,7 @@ def validate_citations(citations):
     required_fields = [
         'citation_id', 'source_type', 'title', 'authors',
         'year', 'container', 'doi', 'url', 'access_status',
-        'allowed_source', 'retrieved_on', 'pages_or_sections', 'notes'
+        'retrieved_on', 'notes'
     ]
     for citation in citations:
         for field in required_fields:
@@ -617,6 +628,8 @@ def create_researcher_agent():
                     "has_fulltext": has_fulltext,
                     "abstract": result.get("abstractText", "")[:200] + "..." if result.get("abstractText") else "No abstract"
                 })
+
+            print("article_list:", json.dumps(article_list, indent=2))
 
             # Create selection prompt
             selection_prompt = SELECTION_PROMPT.format(
@@ -731,6 +744,9 @@ def create_researcher_agent():
 
             summary_prompt += "\n\nProvide your summary in bullet points, citing specific findings from the articles."
 
+
+            print("--- \nsummary_prompt:", summary_prompt, "\n---")
+
             summary_response = _call_llm(llm, summary_prompt)
             summary = (
                 summary_response.content
@@ -738,16 +754,17 @@ def create_researcher_agent():
                 else str(summary_response)
             )
 
-            # Extract citations from all results (not just top 5)
+            print("--- \nsummary:", summary, "\n---")
+            # Extract citations for JUST the 5 full text
 
-            all_citations = extract_structured_citations(results)
-            print(f"[Researcher] Extracted {len(all_citations)} citations")
-            if all_citations:
-                print(f"[Researcher] Sample citation: {all_citations[0]}")
+            top_5_citations = extract_structured_citations([r["article"] for r in fulltext_results])
+            print(f"[Researcher] Extracted {len(top_5_citations)} citations")
+            if top_5_citations:
+                print(f"[Researcher] Sample citation: {top_5_citations[0]}")
             return {
                 "output": summary or "Research summary generated",
                 "input": query,
-                "citations": all_citations,
+                "citations": top_5_citations,
                 "raw_results": results,
                 "fulltext_results": fulltext_results,
                 "fulltext_used": len(fulltext_results) > 0,
@@ -788,15 +805,18 @@ def create_writer_chain():
             )
 
             response = _call_llm(llm, prompt)
+            print("llm call done")
             content = response.content if hasattr(response, 'content') else str(response)
-
+            print("------")
+            print("content:", content)
             # Clean up the content
             content = content.strip()
             if content.startswith("```"):
                 lines = content.split("\n")
                 content = "\n".join([l for l in lines if not l.strip().startswith("```")])
             content = content.strip()
-
+            print("-----")
+            print("content input into format_as_markdown:", content)
             # Format as Markdown
             markdown_content = format_as_markdown(content, citations, state.get("main_task", "Topic"))
 
@@ -839,6 +859,7 @@ def create_critique_chain():
     """Creates the critique chain."""
     def critique_invoke(state):
         draft = state.get("draft", "")
+        print("draft:", draft)
         revision_num = state.get("revision_number", 0)
     
         # Safety checks

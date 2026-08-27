@@ -52,7 +52,7 @@ Critique Notes: {critique_notes}
 
 IMPORTANT INSTRUCTIONS:
 1. Write a comprehensive draft based on the research findings
-2. Use in-text citations in the format: [@cit-001], [@cit-002], etc.
+2. Use in-text citations in the format: [cit-001], [cit-002], etc.
 3. Include a References section at the end with FULL citations
 4. Format citations EXACTLY as provided in the "Structured Citations" section
 5. DO NOT generate hypothetical or example references
@@ -60,15 +60,15 @@ IMPORTANT INSTRUCTIONS:
 7. Use formal, academic tone
 8. All claims must be supported by citations from the provided list
 9. Output MUST be a complete markdown document starting with a title (e.g., # Title)
-10. Do NOT wrap markdown in code blocks or additional formatting
 
 Output the complete report in MARKDOWN format with:
 - # for main title
-- ## for sections (Abstract, Introduction, Key Findings, Conclusion, References)
+- ## for sections 
+  - Section order MUST be: Abstract → Introduction → Key Findings → Conclusion → References
 - ### for subsections
 - Bullet points for lists
 - Proper citation format: [@cit-001]
-- YAML citations in References section (do not wrap in additional code blocks)
+- Wrap the References section in a YAML code block using ```yaml
 
 CITATION FORMAT EXAMPLE:
 [@cit-001] Lanphear, B. P., et al. (1996). Low-level environmental lead exposure and cognitive function in children. Pediatrics, 97(6), 891-897.
@@ -108,16 +108,17 @@ Evaluate the draft based on:
 1. Completeness - Does it cover the topic thoroughly?
 2. Accuracy - Is the information well-researched?
 3. Structure - Is it well-organized with clear sections?
+  - Verify sections appear in correct order: Title → Abstract → Introduction → Key Findings → Conclusion → References
+  - Check for duplicate sections or repeated content
 4. Clarity - Is it easy to understand?
 5. Depth - Does it provide meaningful analysis?
 6. In-text Citations - Does all data and findings have an in-text citation?
-7. References - Are all citations from the report listed in the references? Are citations formatted in ACS Style?
-  - FORMAT for journal article: Author Last Name, Initials.; Author Last Name, Initials. Article Title. Abbreviated Journal Title Year, Volume (Issue), Page Range. DOI.
-  - EXAMPLE of ACS style citation for journal article: Tan, G. Y.; Das, M.; Keum, H.; Bellotti, P.; Daniliuc, C.; Glorius, F. Photochemical single-step synthesis of β-amino acid derivatives from alkenes and (hetero)arenes. Nature Chemistry 2022, 14 (10), 1174−1184. DOI: 10.1038/s41557-022-01008-w
+7. References - Are all citations from the report listed in the references?
+  - Verify References section uses YAML format with ```yaml code block
 
 
 Provide your evaluation:
-- If the draft is satisfactory (minor issues are okay), respond with: "APPROVED - [brief positive comment]"
+- Only approve if ALL structural requirements are met. If approved, respond with: "APPROVED - [brief positive comment]"
 - If the draft needs improvement, provide specific, actionable feedback for revision
 
 Your response:

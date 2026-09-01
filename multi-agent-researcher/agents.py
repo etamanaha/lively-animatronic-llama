@@ -9,7 +9,6 @@ from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 from prompts import (
     supervisor_prompt_template,
-    researcher_prompt_template,
     writer_prompt_template,
     critique_prompt_template
 )
